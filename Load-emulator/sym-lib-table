@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "87832-1420")(type "KiCad")(uri "${KIPRJMOD}/project-lib/schematic/87832-1420.kicad_sym")(options "")(descr ""))
+  (lib (name "PC104")(type "KiCad")(uri "${KIPRJMOD}/project-lib/schematic/SSW-126-04-G-D.kicad_sym")(options "")(descr ""))
+)
