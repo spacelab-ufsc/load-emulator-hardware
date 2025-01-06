@@ -580,6 +580,86 @@
     [
       "9054bfd2-3cc0-4c96-aa71-abdb09b76dc7",
       "Raiz"
+    ],
+    [
+      "a12c045f-372a-4c5b-93d1-0c234b5f9c5c",
+      "Preliminar Circuit"
+    ],
+    [
+      "205d1fd4-c06c-4b81-92b9-38f15798e8a4",
+      "Current Sink 1A"
+    ],
+    [
+      "c40377b4-6929-4e4a-ac2d-4b484617f896",
+      "Current Sink 2A"
+    ],
+    [
+      "e0ddf382-1b56-45d3-a566-5cd39e11bb78",
+      "Current Sink 2A1"
+    ],
+    [
+      "0d8c1ad5-6462-4780-8274-c5aa20520e65",
+      "Low-Pass Filter3"
+    ],
+    [
+      "cf683878-7328-464f-8a66-b1c09100ae3f",
+      "Low-Pass Filter4"
+    ],
+    [
+      "e570f75c-5b67-499f-b90a-679acde0c827",
+      "Low-Pass Filter2"
+    ],
+    [
+      "1067bc1d-731b-4056-a052-e9f9516161f7",
+      "Current Sink 1A1"
+    ],
+    [
+      "87a0f9ee-fa92-48a0-98d1-72d297c3468c",
+      "Current Sink 2A2"
+    ],
+    [
+      "f19ca017-58dd-40cb-ac47-55a6c308032d",
+      "Low-Pass Filter5"
+    ],
+    [
+      "141f2eeb-0ea8-4eb0-9bb7-a9a62b916109",
+      "Low-Pass Filter6"
+    ],
+    [
+      "9489fc74-437b-459f-aea1-db601c07bed5",
+      "Current Sink 1A2"
+    ],
+    [
+      "ecd08cfa-ace2-4c26-a75b-4cdb3b0fd9bc",
+      "Current Sink 2A3"
+    ],
+    [
+      "29914013-a477-4717-a7a5-21a772c92b2e",
+      "Current Sink 2A4"
+    ],
+    [
+      "00308429-beaf-4782-9e5d-10502f61f5c3",
+      "Current Sink 1A3"
+    ],
+    [
+      "128c0139-7aee-4d92-8032-2b2c6fcc70a3",
+      "Current Sink 2A5"
+    ],
+    [
+      "1c64d8a3-ab27-4c28-be0a-61e164321225",
+      "Current Sink 2A6"
+    ],
+    [
+      "22b8b696-77df-4086-a98d-b0dbe5026769",
+      "Low-Pass Filter7"
+    ],
+    [
+      "5ca49ffc-0422-4ddc-a1e5-5325aef8a9c2",
+      "Low-Pass Filter8"
+    ],
+    [
+      "7c366463-52c3-40cf-bddf-8ecdc0d5aa81",
+      "Current Sink 0.592A"
     ]
   ],
   "text_variables": {}
