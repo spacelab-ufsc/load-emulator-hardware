@@ -908,7 +908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c01a2d0-e20d-4b34-9e13-5872f1b7b7d0")
-		(property "Reference" "R20"
+		(property "Reference" "R28"
 			(at 167.64 105.4099 0)
 			(effects
 				(font
@@ -977,6 +977,10 @@
 					(reference "R21")
 					(unit 1)
 				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
+					(reference "R35")
+					(unit 1)
+				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
 					(reference "R20")
 					(unit 1)
@@ -998,7 +1002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66dfd56e-efe2-4082-ba08-bfa17ef32406")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR061"
 			(at 165.1 119.38 0)
 			(effects
 				(font
@@ -1064,6 +1068,10 @@
 					(reference "#PWR034")
 					(unit 1)
 				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
+					(reference "#PWR0101")
+					(unit 1)
+				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
 					(reference "#PWR033")
 					(unit 1)
@@ -1085,7 +1093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cb013a6-f34c-456c-a097-48a31f64e2a4")
-		(property "Reference" "Q4"
+		(property "Reference" "Q10"
 			(at 167.64 88.8999 0)
 			(effects
 				(font
@@ -1160,6 +1168,10 @@
 					(reference "Q5")
 					(unit 1)
 				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
+					(reference "Q13")
+					(unit 1)
+				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
 					(reference "Q4")
 					(unit 1)
@@ -1181,7 +1193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94311403-01ac-4b76-aaae-325380f6cc4f")
-		(property "Reference" "U4"
+		(property "Reference" "U10"
 			(at 149.86 83.8514 0)
 			(effects
 				(font
@@ -1265,6 +1277,10 @@
 				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/87a0f9ee-fa92-48a0-98d1-72d297c3468c"
 					(reference "U5")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
