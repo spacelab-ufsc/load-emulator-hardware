@@ -3,4 +3,5 @@
   (lib (name "87832-1420")(type "KiCad")(uri "${KIPRJMOD}/project-lib/schematic/87832-1420.kicad_sym")(options "")(descr ""))
   (lib (name "PC104")(type "KiCad")(uri "${KIPRJMOD}/project-lib/schematic/SSW-126-04-G-D.kicad_sym")(options "")(descr ""))
   (lib (name "533980771")(type "KiCad")(uri "C:/Users/Fernanda Paiva/Downloads/533980771.kicad_sym")(options "")(descr ""))
+  (lib (name "532610771")(type "KiCad")(uri "C:/Users/Fernanda Paiva/Downloads/532610771/KiCADv6/532610771.kicad_sym")(options "")(descr ""))
 )
