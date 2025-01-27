@@ -4143,16 +4143,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 77.47) (xy 152.4 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08db7f66-4489-481f-be40-2fa0a9833b55")
-	)
-	(wire
-		(pts
 			(xy 231.14 68.58) (xy 233.68 68.58)
 		)
 		(stroke
@@ -4676,16 +4666,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 149.86 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f5144a-b7e9-4e33-8e47-5bb930f968e9")
-	)
-	(wire
-		(pts
 			(xy 52.07 69.85) (xy 52.07 71.12)
 		)
 		(stroke
@@ -4824,16 +4804,6 @@
 			(type default)
 		)
 		(uuid "72cc1515-8ae4-425b-a31b-2ef192d8662f")
-	)
-	(wire
-		(pts
-			(xy 157.48 78.74) (xy 160.02 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738863ab-5932-4093-9045-3f93799c78a8")
 	)
 	(polyline
 		(pts
@@ -5238,16 +5208,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 152.4 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a283e6d9-8f3a-4762-beb8-203b148dd403")
-	)
-	(wire
-		(pts
 			(xy 147.32 66.04) (xy 149.86 66.04)
 		)
 		(stroke
@@ -5375,16 +5335,6 @@
 			(type default)
 		)
 		(uuid "b6f21e0a-d150-4f10-99d0-33f4f06e2846")
-	)
-	(wire
-		(pts
-			(xy 157.48 81.28) (xy 157.48 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b991a32f-619d-4e58-abf7-2ec1651e40ce")
 	)
 	(wire
 		(pts
@@ -7344,7 +7294,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 78.74 90)
+		(at 153.67 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7352,7 +7302,7 @@
 		(dnp no)
 		(uuid "912a6623-01b0-43a4-8ecf-801c235e0dd6")
 		(property "Reference" "R9"
-			(at 153.67 76.2 90)
+			(at 151.13 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7310,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 153.67 78.74 90)
+			(at 151.13 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7318,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 156.21 80.518 90)
+			(at 153.67 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7377,7 +7327,7 @@
 			)
 		)
 		(property "Datasheet" "DNP"
-			(at 153.67 81.28 90)
+			(at 151.13 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 78.74 0)
+			(at 153.67 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +7344,7 @@
 			)
 		)
 		(property "Partnumber" "MCT0603MZ0000ZP500"
-			(at 156.21 78.74 90)
+			(at 153.67 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
