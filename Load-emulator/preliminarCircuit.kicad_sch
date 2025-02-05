@@ -1064,7 +1064,7 @@
 				)
 			)
 			(property "Footprint" "LM324N:DIP794W45P254L1969H508Q14"
-				(at 0 0 0)
+				(at 39.37 -56.896 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1092,7 +1092,7 @@
 				)
 			)
 			(property "MF" "Texas Instruments"
-				(at 0 0 0)
+				(at 54.102 -34.798 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1102,7 +1102,7 @@
 				)
 			)
 			(property "Description_1" "\n                        \n                            Quad 30-V 1.2-MHz operational amplifier\n                        \n"
-				(at 0 0 0)
+				(at 18.796 -42.672 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1112,7 +1112,7 @@
 				)
 			)
 			(property "Package" "PDIP-14 Texas Instruments"
-				(at 0 0 0)
+				(at 19.812 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 0 0 0)
+				(at 41.148 -57.15 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 				)
 			)
 			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM324N/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
+				(at 26.416 -48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1142,7 +1142,7 @@
 				)
 			)
 			(property "MP" "LM324N"
-				(at 0 0 0)
+				(at 24.13 -39.624 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1152,7 +1152,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 0 0 0)
+				(at 30.48 -46.736 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1162,7 +1162,7 @@
 				)
 			)
 			(property "Check_prices" "https://www.snapeda.com/parts/LM324N/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
+				(at 33.02 -56.642 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 			)
 			(symbol "LM324N_0_0"
 				(pin output line
-					(at 17.78 10.16 180)
+					(at 17.78 6.35 180)
 					(length 5.08)
 					(name "1OUT"
 						(effects
@@ -1191,7 +1191,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "3IN+"
 						(effects
@@ -1209,7 +1209,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -15.24 180)
+					(at 17.78 -3.81 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1227,7 +1227,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -5.08 0)
+					(at -17.78 -2.54 0)
 					(length 5.08)
 					(name "4IN+"
 						(effects
@@ -1245,7 +1245,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -7.62 0)
+					(at -17.78 -5.08 0)
 					(length 5.08)
 					(name "4IN-"
 						(effects
@@ -1263,7 +1263,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 2.54 180)
+					(at 17.78 -1.27 180)
 					(length 5.08)
 					(name "4OUT"
 						(effects
@@ -1281,7 +1281,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 7.62 0)
+					(at -17.78 10.16 0)
 					(length 5.08)
 					(name "1IN-"
 						(effects
@@ -1299,7 +1299,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 10.16 0)
+					(at -17.78 12.7 0)
 					(length 5.08)
 					(name "1IN+"
 						(effects
@@ -1317,7 +1317,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 15.24 180)
+					(at 17.78 11.43 180)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -1335,7 +1335,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 5.08 0)
+					(at -17.78 7.62 0)
 					(length 5.08)
 					(name "2IN+"
 						(effects
@@ -1353,7 +1353,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 2.54 0)
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "2IN-"
 						(effects
@@ -1371,7 +1371,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 7.62 180)
+					(at 17.78 3.81 180)
 					(length 5.08)
 					(name "2OUT"
 						(effects
@@ -1389,7 +1389,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 5.08 180)
+					(at 17.78 1.27 180)
 					(length 5.08)
 					(name "3OUT"
 						(effects
@@ -1407,7 +1407,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -2.54 0)
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "3IN-"
 						(effects
@@ -1428,7 +1428,7 @@
 			(symbol "LM324N_0_1"
 				(rectangle
 					(start -12.7 17.78)
-					(end 12.7 -17.78)
+					(end 12.7 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -2781,16 +2781,15 @@
 	)
 	(symbol
 		(lib_id "LM324N:LM324N")
-		(at 154.94 147.32 0)
+		(at 152.4 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f141007-b1d6-454c-9006-cf54bb1c0bf3")
 		(property "Reference" "U14"
-			(at 154.94 124.46 0)
+			(at 152.4 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2797,7 @@
 			)
 		)
 		(property "Value" "LM324N"
-			(at 154.94 127 0)
+			(at 152.4 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2805,7 @@
 			)
 		)
 		(property "Footprint" "LM324N:DIP794W45P254L1969H508Q14"
-			(at 154.94 147.32 0)
+			(at 191.77 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 147.32 0)
+			(at 152.4 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 147.32 0)
+			(at 152.4 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2833,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 154.94 147.32 0)
+			(at 206.502 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2843,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Quad 30-V 1.2-MHz operational amplifier\n                        \n"
-			(at 154.94 147.32 0)
+			(at 171.196 189.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,7 +2853,7 @@
 			)
 		)
 		(property "Package" "PDIP-14 Texas Instruments"
-			(at 154.94 147.32 0)
+			(at 172.212 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2863,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 154.94 147.32 0)
+			(at 193.548 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2873,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM324N/Texas+Instruments/view-part/?ref=snap"
-			(at 154.94 147.32 0)
+			(at 178.816 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2883,7 @@
 			)
 		)
 		(property "MP" "LM324N"
-			(at 154.94 147.32 0)
+			(at 176.53 186.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2893,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 154.94 147.32 0)
+			(at 182.88 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2903,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LM324N/Texas+Instruments/view-part/?ref=eda"
-			(at 154.94 147.32 0)
+			(at 185.42 203.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
