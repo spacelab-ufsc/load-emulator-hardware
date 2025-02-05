@@ -7226,7 +7226,7 @@
 		(dnp no)
 		(uuid "719800cb-4da3-46c4-9ce6-6b63d8799f10")
 		(property "Reference" "R7"
-			(at 153.67 61.087 90)
+			(at 153.67 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,6 +7239,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -7302,7 +7303,7 @@
 		(dnp no)
 		(uuid "912a6623-01b0-43a4-8ecf-801c235e0dd6")
 		(property "Reference" "R9"
-			(at 151.13 78.74 90)
+			(at 153.67 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,11 +7311,12 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 151.13 81.28 90)
+			(at 155.194 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -7332,6 +7334,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
@@ -7889,7 +7892,7 @@
 		(dnp no)
 		(uuid "bee77175-cee9-486c-bc7c-ba81bc49f0a6")
 		(property "Reference" "R8"
-			(at 153.67 68.58 90)
+			(at 153.416 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,6 +7905,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -7919,6 +7923,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
