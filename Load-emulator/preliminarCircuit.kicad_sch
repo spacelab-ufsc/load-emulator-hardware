@@ -1788,6 +1788,34 @@
 		(color 0 0 0 0)
 		(uuid "eb69fcfb-1d51-4619-ab89-b8cc41c464fd")
 	)
+	(no_connect
+		(at 39.37 88.9)
+		(uuid "00287e56-0b41-49d7-8bb2-ce23b67e6af9")
+	)
+	(no_connect
+		(at 39.37 91.44)
+		(uuid "719d4507-e38d-46ab-9341-891a1458a992")
+	)
+	(no_connect
+		(at 39.37 96.52)
+		(uuid "9332ca6d-366a-404d-98b3-f0e6d17ffe37")
+	)
+	(no_connect
+		(at 31.75 120.65)
+		(uuid "b3bffd1f-80b7-43a5-bf59-4c7b3569e96d")
+	)
+	(no_connect
+		(at 31.75 123.19)
+		(uuid "c483b293-3da1-49ec-99a9-52fa9077298c")
+	)
+	(no_connect
+		(at 31.75 125.73)
+		(uuid "c78431f5-d9b6-4fcd-8582-0440992ed9e7")
+	)
+	(no_connect
+		(at 39.37 93.98)
+		(uuid "ea76a848-6060-4dfc-afdd-b04685ca73b0")
+	)
 	(wire
 		(pts
 			(xy 191.77 74.93) (xy 191.77 52.07)
@@ -2266,6 +2294,30 @@
 		)
 		(uuid "110c9f20-5771-46e9-aa58-57a5e7d229e6")
 	)
+	(text "Channel 1 - 3V3_OBDH (3V3/1A)\nChannel 2 - 3V3_Deployment_ANT (3V3/2A)\nChannel 3 - 3V3_EPS_Beacon (3V3/2A)\nChannel 4 - 5V Payload (5V/3A)\nChannel 5 - 6V Radio 1 (6V/5A)\nChannel 6 - 5V Radio 0 (5V/5A)\nChannel 7 - VBus (7.4V/0.592A)"
+		(exclude_from_sim no)
+		(at 18.288 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fc0ca81-ef07-4470-9cf8-f438099b5c59")
+	)
+	(text "PICOLOCK 7 CANAIS\n			"
+		(exclude_from_sim no)
+		(at 28.194 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "227fdccd-54f3-4fff-9b75-d91d09783194")
+	)
 	(text "Channel 7 - 0.592A"
 		(exclude_from_sim no)
 		(at 140.462 94.996 0)
@@ -2285,6 +2337,16 @@
 			)
 		)
 		(uuid "50596bfa-884a-49ae-a7d0-e2b236ebf763")
+	)
+	(text "Obs: VBus -> 7.4V"
+		(exclude_from_sim no)
+		(at 35.56 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a8e3f56-cd1a-4b3c-8576-60f714833e81")
 	)
 	(text "Channel 2 - 2A\n"
 		(exclude_from_sim no)
@@ -2309,9 +2371,9 @@
 		)
 		(uuid "919d2989-2fa1-49a9-aa48-201d4a3faad7")
 	)
-	(text "PICOLOCK COM 7 CANAIS!! \n			"
+	(text "PICOLOCK 7 CANAIS\n			"
 		(exclude_from_sim no)
-		(at 25.146 96.52 0)
+		(at 37.846 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2322,18 +2384,15 @@
 		)
 		(uuid "a4d10a72-d324-412b-9e5b-e6c7d8153d0d")
 	)
-	(text "- 1 canal de 1A\n- 2 canais de 2A\n- 1 canal de 3A\n- 2 canais de 5A\n- 1 canal de 0,592A (VBus) -> 7.4 Volts"
+	(text "5V, 6V e 7.4V"
 		(exclude_from_sim no)
-		(at 19.558 56.388 0)
+		(at 38.354 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
-			(justify left)
 		)
-		(uuid "a6e844bb-7c3f-4e14-80e8-01684b6e4f05")
+		(uuid "aac4b772-8041-43fa-81aa-3a1b6f5b5e73")
 	)
 	(text "Channel 5 - 5A"
 		(exclude_from_sim no)
@@ -2364,6 +2423,16 @@
 			)
 		)
 		(uuid "da73c296-abee-44a3-9dfe-9e1486d36111")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 48.006 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4b03e2b-2b70-4e31-82e1-012ad32e7e58")
 	)
 	(label "Channel 7"
 		(at 33.02 41.91 180)
@@ -2518,6 +2587,160 @@
 			(justify right bottom)
 		)
 		(uuid "ec7610d7-93e5-4c68-8eb3-6baac6b3663b")
+	)
+	(global_label "3V3_EPS_Beacon"
+		(shape input)
+		(at 39.37 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01899075-db3d-47f6-a2f2-09023c50b2d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.4193 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_OBDH"
+		(shape input)
+		(at 39.37 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37ca7ef9-48b9-4ce4-9512-55ed5e3d281c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7086 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBus"
+		(shape input)
+		(at 31.75 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fdf36fd-0cfc-4780-bcc4-04c068ff0278")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.2291 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Payload"
+		(shape input)
+		(at 31.75 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ef11991-b760-4d74-94e1-e063b0378701")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.0003 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Radio_0"
+		(shape input)
+		(at 31.75 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce5c2e6e-e61a-4000-b050-99fecf9ea3ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.0002 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Radio_1"
+		(shape input)
+		(at 31.75 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e795cc91-0653-43c2-9a7f-3fcdc7efd743")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.0002 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_Deployment_ANT"
+		(shape input)
+		(at 39.37 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff81badc-4d13-4651-bd24-fb134a23d337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.6093 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+10V")
@@ -3420,7 +3643,7 @@
 	)
 	(symbol
 		(lib_id "532610771:532610771")
-		(at 27.94 73.66 0)
+		(at 39.37 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3429,7 +3652,7 @@
 		(fields_autoplaced yes)
 		(uuid "55de23a4-5681-426c-ad4c-90b8fa4bf3c9")
 		(property "Reference" "J5"
-			(at 41.91 80.0099 0)
+			(at 53.34 87.6299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3438,7 +3661,7 @@
 			)
 		)
 		(property "Value" "532610771"
-			(at 41.91 82.5499 0)
+			(at 53.34 90.1699 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3447,7 +3670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 68.326 0)
+			(at 45.72 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3680,7 @@
 			)
 		)
 		(property "Datasheet" "532610771"
-			(at 46.228 68.072 0)
+			(at 57.658 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 73.66 0)
+			(at 39.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,6 +4643,93 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "532610771:532610771")
+		(at 31.75 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "962e8614-0a49-4d09-9b27-59fd55c63af8")
+		(property "Reference" "J6"
+			(at 45.72 121.9199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "532610771"
+			(at 45.72 124.4599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "532610771"
+			(at 50.038 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ccde0fe-50a5-4899-ac16-9603b8849c81")
+		)
+		(pin "1"
+			(uuid "358c1002-3a27-4af2-ab65-d4c214897dd7")
+		)
+		(pin "7"
+			(uuid "b3382547-6df1-4f98-acd1-594a53068dab")
+		)
+		(pin "5"
+			(uuid "5971191d-36e4-4aa6-828f-016d954f0fb5")
+		)
+		(pin "2"
+			(uuid "b46720c6-f1ff-4bba-860a-d2cddcb0a6b1")
+		)
+		(pin "4"
+			(uuid "3b562d03-ed3c-4523-b41f-7f22a1bc5598")
+		)
+		(pin "6"
+			(uuid "a9590f9d-7657-4dcb-b45e-d425f6d9bdc6")
+		)
+		(instances
+			(project "Load-emulator"
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
+					(reference "J6")
 					(unit 1)
 				)
 			)

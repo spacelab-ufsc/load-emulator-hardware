@@ -4000,10 +4000,6 @@
 		(uuid "b2e41fa3-aba0-4cd5-a2c8-294aef7b56c4")
 	)
 	(no_connect
-		(at 231.14 68.58)
-		(uuid "b5393e80-f228-46bc-a4a5-8a9dcf35a9fb")
-	)
-	(no_connect
 		(at 231.14 48.26)
 		(uuid "b9483a35-a9e4-4559-b8a2-039df6c18e95")
 	)
@@ -4038,10 +4034,6 @@
 	(no_connect
 		(at 231.14 78.74)
 		(uuid "d7d4860a-c64c-4dea-8e0e-40b41d7796c2")
-	)
-	(no_connect
-		(at 266.7 58.42)
-		(uuid "d8738510-bd65-46ef-858a-d00ef348717e")
 	)
 	(no_connect
 		(at 231.14 53.34)
@@ -4120,16 +4112,6 @@
 			(type default)
 		)
 		(uuid "04cb7288-4e1f-4c67-ade6-3e07af7d0296")
-	)
-	(wire
-		(pts
-			(xy 231.14 81.28) (xy 233.68 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07c8fd98-e6a9-4579-800a-a358e9d1122b")
 	)
 	(wire
 		(pts
@@ -4322,6 +4304,16 @@
 			(type default)
 		)
 		(uuid "2c6e16d2-b0fa-4985-bdcb-4596a92cd4a0")
+	)
+	(wire
+		(pts
+			(xy 229.87 78.74) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5e95f2-a608-400b-bfa4-0b5773041200")
 	)
 	(wire
 		(pts
@@ -4543,6 +4535,16 @@
 			(type default)
 		)
 		(uuid "4b33e1da-f56f-4974-9ef2-8d41827aede4")
+	)
+	(wire
+		(pts
+			(xy 228.6 78.74) (xy 228.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cbd16b1-bb02-4af1-8cf6-53fdf00d4785")
 	)
 	(wire
 		(pts
@@ -5116,6 +5118,16 @@
 		)
 		(uuid "93d51f72-7ebb-4bd1-a7dc-649640a41975")
 	)
+	(wire
+		(pts
+			(xy 229.87 81.28) (xy 233.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95caa169-7659-48e4-ad75-c7680a578c70")
+	)
 	(polyline
 		(pts
 			(xy 107.95 113.03) (xy 284.48 113.03)
@@ -5649,6 +5661,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 78.74) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f6a3ad-cb30-4b17-843b-eaa705444906")
+	)
+	(wire
+		(pts
 			(xy 213.36 86.36) (xy 215.9 86.36)
 		)
 		(stroke
@@ -5971,17 +5993,6 @@
 		)
 		(uuid "fa308e4c-47f0-4cf4-b827-18ad5caef892")
 	)
-	(label "5V _Payload"
-		(at 180.34 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02386674-c923-4896-b64d-8173b252aad0")
-	)
 	(label "DGND"
 		(at 215.9 63.5 0)
 		(fields_autoplaced yes)
@@ -6048,28 +6059,6 @@
 		)
 		(uuid "26104498-9ed4-43c9-a40b-4082f767e631")
 	)
-	(label "3V3_Deployment_ANT"
-		(at 266.7 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d4063fd-7353-42aa-a127-71d5cdc2530d")
-	)
-	(label "5V_Radio_0"
-		(at 180.34 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2e2d5466-ebbd-434a-a2c4-05c671833ced")
-	)
 	(label "H1-49"
 		(at 160.02 73.66 0)
 		(fields_autoplaced yes)
@@ -6125,17 +6114,6 @@
 		)
 		(uuid "34506dd9-2598-4e51-b6a2-2dea14ac6cdd")
 	)
-	(label "3V3_EPS_Beacon"
-		(at 231.14 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right bottom)
-		)
-		(uuid "38dcf28a-f0bf-4550-9bef-d1c7073ff197")
-	)
 	(label "H1-32"
 		(at 121.92 50.8 180)
 		(fields_autoplaced yes)
@@ -6146,17 +6124,6 @@
 			(justify right bottom)
 		)
 		(uuid "3da4192a-a567-4a16-ad46-fc829a93b3d2")
-	)
-	(label "6V_Radio_1"
-		(at 180.34 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4020381d-658a-4679-863e-2d6f1274c478")
 	)
 	(label "5V"
 		(at 144.78 73.66 180)
@@ -6179,17 +6146,6 @@
 			(justify left bottom)
 		)
 		(uuid "538049e3-1ebf-46e2-a636-f536dcbb2430")
-	)
-	(label "3V3_OBDH"
-		(at 180.34 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "538e8380-8c42-4238-be52-01bb31cd09ad")
 	)
 	(label "H1-19"
 		(at 123.19 72.39 180)
@@ -6224,17 +6180,6 @@
 		)
 		(uuid "5d09c3f5-d659-4344-af54-dd91be82b699")
 	)
-	(label "3V3_OBDH"
-		(at 215.9 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e2329e9-9bf2-43fc-9aa9-4cace59a7482")
-	)
 	(label "H2-04"
 		(at 165.1 39.37 0)
 		(fields_autoplaced yes)
@@ -6246,17 +6191,6 @@
 		)
 		(uuid "5f2b1e11-6c41-418b-b034-19d74a6117f1")
 	)
-	(label "3V3_Deployment_ANT"
-		(at 231.14 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "642f6f16-ba75-41f7-b54c-0f7404d6043a")
-	)
 	(label "H1-29"
 		(at 121.92 43.18 180)
 		(fields_autoplaced yes)
@@ -6267,17 +6201,6 @@
 			(justify right bottom)
 		)
 		(uuid "68b2e017-a8d5-4a5a-a184-a1b754386bbb")
-	)
-	(label "VBus"
-		(at 266.7 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74997902-88a2-4c80-842f-8f61b5c35618")
 	)
 	(label "DGND"
 		(at 215.9 60.96 0)
@@ -6333,28 +6256,6 @@
 			(justify left bottom)
 		)
 		(uuid "83853441-886e-4caf-8be3-f44037f5c4fc")
-	)
-	(label "VBus"
-		(at 231.14 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "853f5221-057b-4b85-8f8e-45d1b0cfec1d")
-	)
-	(label "5V_Radio_0"
-		(at 215.9 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "86b10eaa-093c-4249-a610-8570678ad20f")
 	)
 	(label "DGND"
 		(at 180.34 60.96 180)
@@ -6422,17 +6323,6 @@
 		)
 		(uuid "a785850b-246e-4b45-9a75-fe0e1f4547ab")
 	)
-	(label "5V _Payload"
-		(at 215.9 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aba4e089-a9c8-47bb-a4f6-90054259534a")
-	)
 	(label "5V Payload"
 		(at 266.7 55.88 0)
 		(fields_autoplaced yes)
@@ -6444,17 +6334,6 @@
 		)
 		(uuid "bd220061-d480-4a06-9476-f37bdecf3eb4")
 	)
-	(label "6V_Radio_1"
-		(at 215.9 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ccf0acc4-6042-4458-b80f-47875d1d828d")
-	)
 	(label "5V Payload"
 		(at 231.14 55.88 180)
 		(fields_autoplaced yes)
@@ -6465,17 +6344,6 @@
 			(justify right bottom)
 		)
 		(uuid "d1b63c67-2459-4903-b02d-043e17592099")
-	)
-	(label "3V3_EPS_Beacon"
-		(at 266.7 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left bottom)
-		)
-		(uuid "d331d007-f79a-40c2-b33e-8c93403e5a57")
 	)
 	(label "UART_RX"
 		(at 125.73 72.39 0)
@@ -6521,6 +6389,204 @@
 		)
 		(uuid "e03684b3-1878-49a3-bb43-ae50ee93a2cc")
 	)
+	(global_label "5V_Payload"
+		(shape input)
+		(at 215.9 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0bd8252f-504f-41d5-bc5d-89c99818f537")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6497 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Payload"
+		(shape input)
+		(at 180.34 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c973b90-8ee5-4904-803a-8f6d4a1aeb86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.5903 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_EPS_Beacon"
+		(shape input)
+		(at 231.14 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "38a9b763-350b-412b-8098-df2a93ac0f75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.7694 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Radio_0"
+		(shape input)
+		(at 215.9 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4daf2dcf-a6e1-4440-a9e3-5f8abf3ab75a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6498 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Radio_1"
+		(shape input)
+		(at 215.9 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f6a2487-5dcd-4dbf-8f24-234d0681d293")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6498 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_OBDH"
+		(shape input)
+		(at 215.9 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "53f5f36e-20e8-4f8f-8096-0b474015acad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.5614 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_Radio_0"
+		(shape input)
+		(at 180.34 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c686db2-13a3-4dc9-b0af-2367cb814867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.5902 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "6V_Radio_1"
+		(shape input)
+		(at 180.34 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "628925e4-0265-4f95-832c-795975d49e74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.5902 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_Deployment_ANT"
+		(shape input)
+		(at 266.7 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "8cbbfbc7-3cba-4ae5-97e2-84ff5aaeb77c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.3566 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EPS"
 		(shape input)
 		(at 77.47 96.52 90)
@@ -6545,6 +6611,50 @@
 			)
 		)
 	)
+	(global_label "3V3_EPS_Beacon"
+		(shape input)
+		(at 266.7 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "d4644dc9-d246-4c65-81b4-0e5dde57a38a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.0706 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBus"
+		(shape input)
+		(at 266.7 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d56cf2bf-62c4-430d-b241-6fcea890a520")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.2209 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Controle"
 		(shape input)
 		(at 29.21 107.95 180)
@@ -6560,6 +6670,72 @@
 		(uuid "e36592ba-875b-46a1-bb17-1c3219f0e299")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.7661 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_Deployment_ANT"
+		(shape input)
+		(at 231.14 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify right)
+		)
+		(uuid "e7b1c49c-78f2-4c5d-9aed-b7e18aaaabef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4834 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBus"
+		(shape input)
+		(at 228.6 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f03bc4cb-6141-404d-b292-37ece7706c60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.0791 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3_OBDH"
+		(shape input)
+		(at 180.34 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc1c77fe-fdb3-4508-8d9e-88eb899d9d7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.6786 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
