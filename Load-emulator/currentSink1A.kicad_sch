@@ -5,7 +5,7 @@
 	(uuid "ba3c69de-a649-432f-b50f-42809ea5f2a1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:AD8001AN"
+		(symbol "Amplifier_Operational:LM318H"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,43 +13,42 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AD8001AN"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf"
 				(at 3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM318H"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Current Feedback Amplifier, 800 MHz, 50mW, DIP-8"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Operational Amplifier, TO-99-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,10 +75,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AD8001AN_0_1"
+			(symbol "LM318H_0_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -90,14 +89,14 @@
 					)
 				)
 			)
-			(symbol "AD8001AN_1_1"
-				(pin no_connect line
-					(at -5.08 -2.54 90)
-					(length 2.54) hide
-					(name "NC"
+			(symbol "LM318H_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BAL1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -163,13 +162,13 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 -2.54 90)
-					(length 2.54) hide
-					(name "NC"
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "BAL3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -217,13 +216,13 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54) hide
-					(name "NC"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "BAL2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -736,6 +735,18 @@
 		(color 0 0 0 0)
 		(uuid "50eb9429-6e05-47ee-8613-f917a501f355")
 	)
+	(no_connect
+		(at 138.43 92.71)
+		(uuid "16f48708-3a48-4616-93a2-7f14407e738d")
+	)
+	(no_connect
+		(at 135.89 92.71)
+		(uuid "806aed03-1e13-49c8-973c-2ca38cb55d5b")
+	)
+	(no_connect
+		(at 135.89 77.47)
+		(uuid "db93c5fc-5b1a-4569-871b-5f05ff1c21a4")
+	)
 	(wire
 		(pts
 			(xy 125.73 87.63) (xy 128.27 87.63)
@@ -826,7 +837,7 @@
 		)
 		(uuid "f87dff84-1d6a-4f40-b506-d8269b1520c7")
 	)
-	(text "Current-Sink\n(0.592A MAX)\n"
+	(text "Current-Sink\n(1A MAX)\n"
 		(exclude_from_sim no)
 		(at 145.796 68.072 0)
 		(effects
@@ -864,19 +875,19 @@
 	)
 	(hierarchical_label "V-"
 		(shape input)
-		(at 133.35 92.71 0)
+		(at 133.35 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6b4980cb-89f3-4daf-add0-7ca7e2bc72cb")
 	)
 	(hierarchical_label "V+"
 		(shape input)
-		(at 133.35 77.47 0)
+		(at 133.35 77.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -982,6 +993,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM318H")
+		(at 135.89 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a27faf4-9e93-4190-86b9-59ba4dfa06fa")
+		(property "Reference" "U15"
+			(at 146.05 78.7714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM318H"
+			(at 146.05 81.3114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifier, TO-99-8"
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d462a73b-64a8-4e0c-b374-2261de7e3177")
+		)
+		(pin "5"
+			(uuid "c6cae0c6-9242-478e-a11f-660c0f4b4771")
+		)
+		(pin "1"
+			(uuid "96bc115a-fc27-43c8-be2c-3c459b4b0b8c")
+		)
+		(pin "4"
+			(uuid "4afd59b0-89cc-4c19-98e5-22d93958728c")
+		)
+		(pin "3"
+			(uuid "1cdabbe2-c016-4196-97ff-4e23ab1b55ec")
+		)
+		(pin "2"
+			(uuid "42ac5eb6-6bb8-49e1-8ceb-fd066fe9375b")
+		)
+		(pin "8"
+			(uuid "c86a47f2-bb79-4f34-8282-ddcfb9637bb4")
+		)
+		(pin "7"
+			(uuid "1fba0d14-8f99-4e15-a371-723780405483")
+		)
+		(instances
+			(project ""
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/00308429-beaf-4782-9e5d-10502f61f5c3"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/1067bc1d-731b-4056-a052-e9f9516161f7"
+					(reference "U15")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/205d1fd4-c06c-4b81-92b9-38f15798e8a4"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/7c366463-52c3-40cf-bddf-8ecdc0d5aa81"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/9489fc74-437b-459f-aea1-db601c07bed5"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:TIP41C")
 		(at 160.02 85.09 0)
 		(unit 1)
@@ -1074,109 +1187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:AD8001AN")
-		(at 135.89 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7da011a6-be7c-49f9-ae21-39d1c0964b75")
-		(property "Reference" "U9"
-			(at 147.32 78.7714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8001AN"
-			(at 147.32 81.3114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 133.35 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf"
-			(at 139.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Feedback Amplifier, 800 MHz, 50mW, DIP-8"
-			(at 135.89 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "40819997-e9ac-40e5-97ba-454f415e181c")
-		)
-		(pin "1"
-			(uuid "fa607712-201b-43fe-b920-5c67a30a7f6b")
-		)
-		(pin "3"
-			(uuid "70d3ec5f-a63d-46c6-89d2-6d90f43384ba")
-		)
-		(pin "8"
-			(uuid "1465e531-6eaa-4a55-a691-5dae5c85525c")
-		)
-		(pin "5"
-			(uuid "bde8ba31-5670-44db-a28e-f38a7673fc6e")
-		)
-		(pin "4"
-			(uuid "bbe4e9d7-5f07-4e54-9f88-802ac790a700")
-		)
-		(pin "7"
-			(uuid "448e29a5-b50f-4418-a0f9-92adb599a064")
-		)
-		(pin "2"
-			(uuid "1a994afb-7f41-4bbf-bb0a-aca90c617a9f")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/00308429-beaf-4782-9e5d-10502f61f5c3"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/1067bc1d-731b-4056-a052-e9f9516161f7"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/205d1fd4-c06c-4b81-92b9-38f15798e8a4"
-					(reference "U2")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/7c366463-52c3-40cf-bddf-8ecdc0d5aa81"
-					(reference "U12")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/9489fc74-437b-459f-aea1-db601c07bed5"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 162.56 101.6 0)
 		(unit 1)
@@ -1204,7 +1214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 163.576 101.854 90)
 			(effects
 				(font
