@@ -1018,7 +1018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LM318M:SOIC127P599X175-8N"
 			(at 135.89 85.09 0)
 			(effects
 				(font

@@ -5,7 +5,7 @@
 	(uuid "fc654a74-bb42-4426-98a7-cad1f4ccbc0a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:AD8001AN"
+		(symbol "Amplifier_Operational:LM318H"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,43 +13,42 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AD8001AN"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf"
 				(at 3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM318H"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Current Feedback Amplifier, 800 MHz, 50mW, DIP-8"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Operational Amplifier, TO-99-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP*W7.62mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,10 +75,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AD8001AN_0_1"
+			(symbol "LM318H_0_1"
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.254)
@@ -90,14 +89,14 @@
 					)
 				)
 			)
-			(symbol "AD8001AN_1_1"
-				(pin no_connect line
-					(at -5.08 -2.54 90)
-					(length 2.54) hide
-					(name "NC"
+			(symbol "LM318H_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BAL1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -163,13 +162,13 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -2.54 -2.54 90)
-					(length 2.54) hide
-					(name "NC"
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "BAL3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -217,13 +216,13 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -2.54 90)
-					(length 2.54) hide
-					(name "NC"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "BAL2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -736,6 +735,18 @@
 		(color 0 0 0 0)
 		(uuid "d92dc2cf-8277-4ea7-b2b8-500134adc107")
 	)
+	(no_connect
+		(at 138.43 97.79)
+		(uuid "c3552662-9b63-43bf-89f6-ab233e445e42")
+	)
+	(no_connect
+		(at 138.43 82.55)
+		(uuid "c598b36f-3cb8-421a-ade2-3ad40affef9b")
+	)
+	(no_connect
+		(at 140.97 97.79)
+		(uuid "e85b7dc3-1bf9-427a-8dab-a2cade07d392")
+	)
 	(wire
 		(pts
 			(xy 165.1 100.33) (xy 165.1 102.87)
@@ -840,7 +851,7 @@
 	)
 	(hierarchical_label "V+"
 		(shape input)
-		(at 135.89 82.55 0)
+		(at 135.89 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -876,13 +887,13 @@
 	)
 	(hierarchical_label "V-"
 		(shape input)
-		(at 135.89 97.79 0)
+		(at 135.89 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c32b2ba8-d852-4b49-80cc-62c5f78b4d32")
 	)
@@ -1184,7 +1195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:AD8001AN")
+		(lib_id "Amplifier_Operational:LM318H")
 		(at 138.43 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1192,35 +1203,25 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94311403-01ac-4b76-aaae-325380f6cc4f")
-		(property "Reference" "U10"
-			(at 149.86 83.8514 0)
+		(uuid "745f6197-ee23-4a73-9cf0-ee9757272538")
+		(property "Reference" "U2"
+			(at 148.59 83.8514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AD8001AN"
-			(at 149.86 86.3914 0)
+		(property "Value" "LM318H"
+			(at 148.59 86.3914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 135.89 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf"
-			(at 142.24 86.36 0)
+		(property "Footprint" "LM318M:SOIC127P599X175-8N"
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +1229,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current Feedback Amplifier, 800 MHz, 50mW, DIP-8"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifier, TO-99-8"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -1238,57 +1248,57 @@
 			)
 		)
 		(pin "6"
-			(uuid "c7051755-d7f2-4b62-a79e-629d1d0368c1")
-		)
-		(pin "1"
-			(uuid "042f4666-d60d-4b93-9428-68bf9be265f9")
-		)
-		(pin "3"
-			(uuid "91ee8b16-1e9c-4123-90d0-f5a4fb960393")
-		)
-		(pin "8"
-			(uuid "c89f15cb-14f4-466d-8091-f4ee603748e5")
+			(uuid "7ae8a56b-1553-478d-bd46-666a79270ff2")
 		)
 		(pin "5"
-			(uuid "a9e32665-db5b-4918-8c96-0fe95bce5d1b")
+			(uuid "5b5aae0b-3f41-48b2-953d-04192767084c")
+		)
+		(pin "1"
+			(uuid "db1d2524-2184-4410-aff4-38099eaa30f4")
 		)
 		(pin "4"
-			(uuid "45803f60-4ab5-4eab-812f-063ab521ad28")
+			(uuid "7cd7cdb1-7c3e-485c-b509-a73e74b8e424")
 		)
-		(pin "7"
-			(uuid "7cb0240c-1646-4e29-9336-f131ac84acc1")
+		(pin "3"
+			(uuid "f6e93614-5b31-4520-b012-46869f2e0784")
 		)
 		(pin "2"
-			(uuid "3f08a4da-39bb-4e7d-8fcb-5553899866c5")
+			(uuid "5a4a3f0b-a463-48bb-a7e6-469454ad1ceb")
+		)
+		(pin "8"
+			(uuid "d53ce733-1f84-4b08-be25-c0a96f40b412")
+		)
+		(pin "7"
+			(uuid "b57b1832-b8bb-478a-8521-5afce5f89604")
 		)
 		(instances
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/128c0139-7aee-4d92-8032-2b2c6fcc70a3"
-					(reference "U10")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/1c64d8a3-ab27-4c28-be0a-61e164321225"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/29914013-a477-4717-a7a5-21a772c92b2e"
 					(reference "U8")
 					(unit 1)
 				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/29914013-a477-4717-a7a5-21a772c92b2e"
+					(reference "U6")
+					(unit 1)
+				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/87a0f9ee-fa92-48a0-98d1-72d297c3468c"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
-					(reference "U13")
-					(unit 1)
-				)
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
 					(reference "U4")
 					(unit 1)
 				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
+					(reference "U3")
+					(unit 1)
+				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/ecd08cfa-ace2-4c26-a75b-4cdb3b0fd9bc"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
