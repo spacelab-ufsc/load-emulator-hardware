@@ -6323,7 +6323,7 @@
 		)
 		(uuid "a785850b-246e-4b45-9a75-fe0e1f4547ab")
 	)
-	(label "5V Payload"
+	(label "5V_Payload"
 		(at 266.7 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6334,7 +6334,7 @@
 		)
 		(uuid "bd220061-d480-4a06-9476-f37bdecf3eb4")
 	)
-	(label "5V Payload"
+	(label "5V_Payload"
 		(at 231.14 55.88 180)
 		(fields_autoplaced yes)
 		(effects

@@ -1002,7 +1002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a27faf4-9e93-4190-86b9-59ba4dfa06fa")
-		(property "Reference" "U15"
+		(property "Reference" "U17"
 			(at 146.05 78.7714 0)
 			(effects
 				(font
@@ -1205,7 +1205,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.04Ω"
+		(property "Value" "1.8Ω"
 			(at 165.1 102.8699 0)
 			(effects
 				(font
