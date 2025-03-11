@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fc654a74-bb42-4426-98a7-cad1f4ccbc0a")
 	(paper "A4")
 	(lib_symbols
@@ -90,17 +90,17 @@
 				)
 			)
 			(symbol "LM318H_1_1"
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "BAL1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
-								(size 0.508 0.508)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -126,17 +126,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -155,6 +155,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "BAL2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BAL1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -198,46 +234,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "BAL2"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -308,18 +311,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -332,7 +323,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -356,7 +347,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -405,10 +408,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:TIP41C"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -481,6 +487,18 @@
 			(symbol "TIP41C_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -503,12 +521,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -525,17 +542,6 @@
 					)
 					(fill
 						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -595,12 +601,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -727,7 +738,20 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Current-Sink\n(2A MAX)\n"
+		(exclude_from_sim no)
+		(at 148.336 73.152 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2ef6525b-b19b-4602-88f2-c0b89721b1de")
 	)
 	(junction
 		(at 165.1 100.33)
@@ -837,22 +861,9 @@
 		)
 		(uuid "c9b12270-820e-4572-865d-9711cc752302")
 	)
-	(text "Current-Sink\n(2A MAX)\n"
-		(exclude_from_sim no)
-		(at 148.336 73.152 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "2ef6525b-b19b-4602-88f2-c0b89721b1de")
-	)
 	(hierarchical_label "V+"
 		(shape input)
 		(at 135.89 82.55 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -864,7 +875,6 @@
 	(hierarchical_label "EPS"
 		(shape input)
 		(at 165.1 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -876,7 +886,6 @@
 	(hierarchical_label "CTRL"
 		(shape input)
 		(at 115.57 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -888,7 +897,6 @@
 	(hierarchical_label "V-"
 		(shape input)
 		(at 135.89 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -900,7 +908,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 165.1 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -919,7 +926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c01a2d0-e20d-4b34-9e13-5872f1b7b7d0")
-		(property "Reference" "R28"
+		(property "Reference" "R35"
 			(at 167.64 105.4099 0)
 			(effects
 				(font
@@ -1013,7 +1020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66dfd56e-efe2-4082-ba08-bfa17ef32406")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0101"
 			(at 165.1 119.38 0)
 			(effects
 				(font
@@ -1104,7 +1111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cb013a6-f34c-456c-a097-48a31f64e2a4")
-		(property "Reference" "Q10"
+		(property "Reference" "Q13"
 			(at 167.64 88.8999 0)
 			(effects
 				(font
@@ -1204,7 +1211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745f6197-ee23-4a73-9cf0-ee9757272538")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 148.59 83.8514 0)
 			(effects
 				(font

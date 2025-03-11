@@ -1,19 +1,19 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "47c74e39-51dd-4763-87bb-634dd359853f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "532610471:532610471"
+		(symbol "532610471_1"
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J?"
-				(at 0 6.858 0)
+			(property "Reference" "J7"
+				(at 0.254 10.668 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -22,7 +22,7 @@
 				)
 			)
 			(property "Value" "532610471"
-				(at 0 5.588 0)
+				(at 0.254 9.398 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -90,21 +90,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "532610471_1_1"
+			(symbol "532610471_1_1_1"
 				(rectangle
-					(start -1.778 4.572)
+					(start -2.54 6.35)
 					(end 1.778 -4.572)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0.508 -3.81) (xy 5.08 -3.81)
+						(xy 1.8177 -3.81) (xy 5.6277 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -116,7 +116,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 -1.27) (xy 5.08 -1.27)
+						(xy 1.8416 5.0847) (xy 6.4136 5.0847)
 					)
 					(stroke
 						(width 0)
@@ -128,7 +128,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.27) (xy 5.08 1.27)
+						(xy 1.869 2.2216) (xy 5.0834 2.2223)
 					)
 					(stroke
 						(width 0)
@@ -140,7 +140,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 3.81) (xy 5.08 3.81)
+						(xy 1.9263 -0.6333) (xy 5.7363 -0.6333)
 					)
 					(stroke
 						(width 0)
@@ -150,52 +150,46 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.508 -3.556)
-					(end 1.778 -4.064)
-					(stroke
-						(width 0)
-						(type solid)
+				(pin no_connect line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "MNTF"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.508 -1.016)
-					(end 1.778 -1.524)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
+					(number "5"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
 					)
 				)
-				(rectangle
-					(start 0.508 1.524)
-					(end 1.778 1.016)
-					(stroke
-						(width 0)
-						(type solid)
+				(pin no_connect line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "MNTS"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
 					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.508 4.064)
-					(end 1.778 3.556)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
+					(number "6"
+						(effects
+							(font
+								(size 0.8 0.8)
+							)
+						)
 					)
 				)
 				(pin passive line
-					(at 7.62 3.81 180)
+					(at 7.62 5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -205,42 +199,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -1.27 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 0.8 0.8)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 0.8 0.8)
@@ -266,17 +224,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 1.27 0)
-					(length 2.54) hide
-					(name "MNTF"
+				(pin passive line
+					(at 7.6234 2.2223 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 0.8 0.8)
@@ -284,17 +242,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -1.27 0)
-					(length 2.54) hide
-					(name "MNTS"
+				(pin passive line
+					(at 7.7286 -0.6333 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 0.8 0.8)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 0.8 0.8)
@@ -303,6 +261,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "533980771:533980771"
 			(pin_names
@@ -480,18 +439,6 @@
 			(symbol "533980771_0_0"
 				(polyline
 					(pts
-						(xy -6.35 -7.62) (xy 6.35 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -6.35 11.43) (xy -6.35 -7.62)
 					)
 					(stroke
@@ -504,7 +451,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -7.62) (xy 6.35 11.43)
+						(xy -6.35 -7.62) (xy 6.35 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -517,6 +464,18 @@
 				(polyline
 					(pts
 						(xy 6.35 11.43) (xy -6.35 11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.62) (xy 6.35 11.43)
 					)
 					(stroke
 						(width 0.254)
@@ -653,12 +612,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+10V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -730,7 +694,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -742,7 +706,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -773,12 +737,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-10V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -869,12 +838,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -965,7 +939,294 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 15.24 95.504)
+		(end 52.07 119.126)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10dc6b5d-8544-405f-9ebd-d8798a39efd5)
+	)
+	(rectangle
+		(start 64.77 156.845)
+		(end 124.46 182.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1bb4c1d1-9fb1-4ca4-984e-3d3dc20184f2)
+	)
+	(rectangle
+		(start 64.77 106.68)
+		(end 143.51 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 454551bf-1d53-4c13-9007-a478d69e8715)
+	)
+	(rectangle
+		(start 73.66 76.835)
+		(end 142.24 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 764d51fd-84e8-4c0c-a2cd-a3f81b4cc9d3)
+	)
+	(rectangle
+		(start 170.18 16.51)
+		(end 248.285 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a102500-f026-4634-8542-bde0dde4ad98)
+	)
+	(rectangle
+		(start 15.24 70.612)
+		(end 52.07 92.964)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a9240e6-774f-4a76-9e58-8588beb3d818)
+	)
+	(rectangle
+		(start 170.18 92.71)
+		(end 248.285 166.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4aad69c-01db-4773-8680-9b9b6c419c9e)
+	)
+	(rectangle
+		(start 73.66 13.97)
+		(end 140.97 43.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ce0f87d9-aa3a-4049-b9ca-c5067a27b676)
+	)
+	(rectangle
+		(start 14.605 13.8636)
+		(end 71.755 69.215)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7fccf48-d4ce-453a-8830-fedf508b1b55)
+	)
+	(rectangle
+		(start 73.66 45.72)
+		(end 142.24 74.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ee40e66d-a1a4-4369-b681-3ad1d4f0c63a)
+	)
+	(text "Obs: VBus -> 7.4V"
+		(exclude_from_sim no)
+		(at 30.988 116.586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d3c9f45-f743-4e6b-9ace-21846422cdcd")
+	)
+	(text "Channel 3 - 2A (3V3_EPS_Beacon)"
+		(exclude_from_sim no)
+		(at 73.914 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "110c9f20-5771-46e9-aa58-57a5e7d229e6")
+	)
+	(text "Channel 1 - 3V3_OBDH (3V3/1A)\nChannel 2 - 3V3_Deployment_ANT (3V3/2A)\nChannel 3 - 3V3_EPS_Beacon (3V3/2A)\nChannel 4 - 5V_Payload (5V/3A)\nChannel 5 - 6V_Radio_1 (6V/5A)\nChannel 6 - 5V_Radio_0 (5V/5A)\nChannel 7 - VBus (7.4V/0.592A)"
+		(exclude_from_sim no)
+		(at 22.098 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fc0ca81-ef07-4470-9cf8-f438099b5c59")
+	)
+	(text "PICOLOCK 4 CANAIS\n			"
+		(exclude_from_sim no)
+		(at 20.574 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "227fdccd-54f3-4fff-9b75-d91d09783194")
+	)
+	(text "Channel 7 - 0.592A (VBus)"
+		(exclude_from_sim no)
+		(at 65.024 158.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26c8267f-3d8d-4af1-902a-96315e1083ca")
+	)
+	(text "Channel 5 - 5A (6V_Radio_1)"
+		(exclude_from_sim no)
+		(at 170.434 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50596bfa-884a-49ae-a7d0-e2b236ebf763")
+	)
+	(text "Channel 2 - 2A (3V3_Deployment_Ant)\n"
+		(exclude_from_sim no)
+		(at 92.964 47.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aa4bd92-b54b-471e-a0b7-99f27784b26a")
+	)
+	(text "PICOBLADE COM 7 CANAIS!! \n			"
+		(exclude_from_sim no)
+		(at 27.432 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "919d2989-2fa1-49a9-aa48-201d4a3faad7")
+	)
+	(text "PICOLOCK 4 CANAIS\n			"
+		(exclude_from_sim no)
+		(at 23.368 74.676 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a4d10a72-d324-412b-9e5b-e6c7d8153d0d")
+	)
+	(text "5V, 6V e 7.4V"
+		(exclude_from_sim no)
+		(at 30.734 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aac4b772-8041-43fa-81aa-3a1b6f5b5e73")
+	)
+	(text "Channel 6 - 5A (5V_Radio_0)"
+		(exclude_from_sim no)
+		(at 170.434 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d67c8f5f-04cf-4af5-8f99-548e88e2b2a3")
+	)
+	(text "Channel 4 - 3A (5V_Payload)"
+		(exclude_from_sim no)
+		(at 65.024 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9c3b5cb-45e7-44af-8d3c-1ee5ad5fe114")
+	)
+	(text "Channel 1 - 1A (3V3_OBDH)"
+		(exclude_from_sim no)
+		(at 73.914 15.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da73c296-abee-44a3-9dfe-9e1486d36111")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 33.02 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4b03e2b-2b70-4e31-82e1-012ad32e7e58")
+	)
+	(text "Ver se realmente\né para ser 1A ou\n0.592A"
+		(exclude_from_sim no)
+		(at 55.372 163.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f2664538-6fe7-46f7-81b4-371df89ca038")
 	)
 	(junction
 		(at 231.14 125.73)
@@ -1367,295 +1628,8 @@
 		)
 		(uuid "fe0f4e0b-1721-4eb6-836c-b30aeb54e17b")
 	)
-	(rectangle
-		(start 15.748 95.504)
-		(end 44.704 119.126)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 10dc6b5d-8544-405f-9ebd-d8798a39efd5)
-	)
-	(rectangle
-		(start 64.77 156.845)
-		(end 124.46 182.88)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1bb4c1d1-9fb1-4ca4-984e-3d3dc20184f2)
-	)
-	(rectangle
-		(start 64.77 106.68)
-		(end 143.51 154.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 454551bf-1d53-4c13-9007-a478d69e8715)
-	)
-	(rectangle
-		(start 73.66 76.835)
-		(end 142.24 104.14)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 764d51fd-84e8-4c0c-a2cd-a3f81b4cc9d3)
-	)
-	(rectangle
-		(start 170.18 16.51)
-		(end 248.285 90.17)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8a102500-f026-4634-8542-bde0dde4ad98)
-	)
-	(rectangle
-		(start 15.24 70.612)
-		(end 52.07 92.964)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8a9240e6-774f-4a76-9e58-8588beb3d818)
-	)
-	(rectangle
-		(start 170.18 92.71)
-		(end 248.285 166.37)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c4aad69c-01db-4773-8680-9b9b6c419c9e)
-	)
-	(rectangle
-		(start 73.66 13.97)
-		(end 140.97 43.18)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ce0f87d9-aa3a-4049-b9ca-c5067a27b676)
-	)
-	(rectangle
-		(start 14.605 13.8636)
-		(end 71.755 69.215)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d7fccf48-d4ce-453a-8830-fedf508b1b55)
-	)
-	(rectangle
-		(start 73.66 45.72)
-		(end 142.24 74.93)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ee40e66d-a1a4-4369-b681-3ad1d4f0c63a)
-	)
-	(text "Obs: VBus -> 7.4V"
-		(exclude_from_sim no)
-		(at 30.988 116.586 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0d3c9f45-f743-4e6b-9ace-21846422cdcd")
-	)
-	(text "Channel 3 - 2A (3V3_EPS_Beacon)"
-		(exclude_from_sim no)
-		(at 73.914 78.486 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "110c9f20-5771-46e9-aa58-57a5e7d229e6")
-	)
-	(text "Channel 1 - 3V3_OBDH (3V3/1A)\nChannel 2 - 3V3_Deployment_ANT (3V3/2A)\nChannel 3 - 3V3_EPS_Beacon (3V3/2A)\nChannel 4 - 5V_Payload (5V/3A)\nChannel 5 - 6V_Radio_1 (6V/5A)\nChannel 6 - 5V_Radio_0 (5V/5A)\nChannel 7 - VBus (7.4V/0.592A)"
-		(exclude_from_sim no)
-		(at 22.098 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fc0ca81-ef07-4470-9cf8-f438099b5c59")
-	)
-	(text "PICOLOCK 4 CANAIS\n			"
-		(exclude_from_sim no)
-		(at 20.574 98.806 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "227fdccd-54f3-4fff-9b75-d91d09783194")
-	)
-	(text "Channel 7 - 0.592A (VBus)"
-		(exclude_from_sim no)
-		(at 65.024 158.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "26c8267f-3d8d-4af1-902a-96315e1083ca")
-	)
-	(text "Channel 5 - 5A (6V_Radio_1)"
-		(exclude_from_sim no)
-		(at 170.434 18.288 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "50596bfa-884a-49ae-a7d0-e2b236ebf763")
-	)
-	(text "Channel 2 - 2A (3V3_Deployment_Ant)\n"
-		(exclude_from_sim no)
-		(at 92.964 47.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8aa4bd92-b54b-471e-a0b7-99f27784b26a")
-	)
-	(text "PICOBLADE COM 7 CANAIS!! \n			"
-		(exclude_from_sim no)
-		(at 27.432 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "919d2989-2fa1-49a9-aa48-201d4a3faad7")
-	)
-	(text "PICOLOCK 4 CANAIS\n			"
-		(exclude_from_sim no)
-		(at 23.368 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "a4d10a72-d324-412b-9e5b-e6c7d8153d0d")
-	)
-	(text "5V, 6V e 7.4V"
-		(exclude_from_sim no)
-		(at 30.734 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aac4b772-8041-43fa-81aa-3a1b6f5b5e73")
-	)
-	(text "Channel 6 - 5A (5V_Radio_0)"
-		(exclude_from_sim no)
-		(at 170.434 94.488 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d67c8f5f-04cf-4af5-8f99-548e88e2b2a3")
-	)
-	(text "Channel 4 - 3A (5V_Payload)"
-		(exclude_from_sim no)
-		(at 65.024 108.204 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9c3b5cb-45e7-44af-8d3c-1ee5ad5fe114")
-	)
-	(text "Channel 1 - 1A (3V3_OBDH)"
-		(exclude_from_sim no)
-		(at 73.914 15.748 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da73c296-abee-44a3-9dfe-9e1486d36111")
-	)
-	(text "3V3"
-		(exclude_from_sim no)
-		(at 33.02 75.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e4b03e2b-2b70-4e31-82e1-012ad32e7e58")
-	)
-	(text "Ver se realmente\né para ser 1A ou\n0.592A"
-		(exclude_from_sim no)
-		(at 55.372 163.068 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f2664538-6fe7-46f7-81b4-371df89ca038")
-	)
 	(label "Channel 7"
 		(at 36.83 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1666,7 +1640,6 @@
 	)
 	(label "Channel 3"
 		(at 83.82 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1677,7 +1650,6 @@
 	)
 	(label "Channel 2"
 		(at 36.83 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1688,7 +1660,6 @@
 	)
 	(label "Channel 5"
 		(at 36.83 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,7 +1670,6 @@
 	)
 	(label "Channel 5"
 		(at 182.88 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1680,6 @@
 	)
 	(label "Channel 4"
 		(at 36.83 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1721,7 +1690,6 @@
 	)
 	(label "Channel 4"
 		(at 76.2 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1732,7 +1700,6 @@
 	)
 	(label "Channel 6"
 		(at 181.61 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1743,7 +1710,6 @@
 	)
 	(label "Channel 7"
 		(at 76.2 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1754,7 +1720,6 @@
 	)
 	(label "Channel 1"
 		(at 83.82 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1765,7 +1730,6 @@
 	)
 	(label "Channel 6"
 		(at 36.83 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,7 +1740,6 @@
 	)
 	(label "Channel 2"
 		(at 85.09 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1787,7 +1750,6 @@
 	)
 	(label "Channel 1"
 		(at 36.83 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1798,7 +1760,6 @@
 	)
 	(label "Channel 3"
 		(at 36.83 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1809,7 +1770,7 @@
 	)
 	(global_label "3V3_OBDH"
 		(shape input)
-		(at 27.94 82.55 0)
+		(at 27.94 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1819,7 +1780,7 @@
 		)
 		(uuid "65f7782b-ee20-4708-bb18-efcb02d2ca3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.6014 82.55 0)
+			(at 40.6014 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1814,7 @@
 	)
 	(global_label "3V3_Deployment_ANT"
 		(shape input)
-		(at 27.94 85.09 0)
+		(at 27.9434 84.1377 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1863,7 +1824,7 @@
 		)
 		(uuid "8951e19a-4c24-4343-8570-cd8c902f8cb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7007 85.09 0)
+			(at 50.7041 84.1377 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1858,7 @@
 	)
 	(global_label "6V_Radio_1"
 		(shape input)
-		(at 29.21 110.49 0)
+		(at 29.3186 109.8533 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1907,7 +1868,7 @@
 		)
 		(uuid "a90ba25f-abeb-432c-bbdd-99aa3d4f50bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9598 110.49 0)
+			(at 43.0684 109.8533 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1919,7 +1880,7 @@
 	)
 	(global_label "3V3_EPS_Beacon"
 		(shape input)
-		(at 27.94 87.63 0)
+		(at 28.0486 86.9933 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1929,7 +1890,7 @@
 		)
 		(uuid "abcb5ff7-7fcf-442a-8a30-7f2ba89a92d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.8907 87.63 0)
+			(at 46.9993 86.9933 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +1924,7 @@
 	)
 	(global_label "5V_Payload"
 		(shape input)
-		(at 29.21 105.41 0)
+		(at 29.21 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1973,7 +1934,7 @@
 		)
 		(uuid "c2ec7a6a-898e-4839-9764-535fdf4ee32f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9597 105.41 0)
+			(at 42.9597 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2051,7 +2012,7 @@
 	)
 	(global_label "5V_Radio_0"
 		(shape input)
-		(at 29.21 107.95 0)
+		(at 29.2134 106.9977 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2061,7 +2022,7 @@
 		)
 		(uuid "da5efa35-9707-4366-bf84-696448d3b22b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9598 107.95 0)
+			(at 42.9632 106.9977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,6 +2331,121 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "532610471_1")
+		(lib_id "532610471:532610471")
+		(at 21.59 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee35114-251e-4323-b6d7-d8fcc9d985df")
+		(property "Reference" "J5"
+			(at 20.066 100.33 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "532610471"
+			(at 20.574 101.854 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "footprints:532610471"
+			(at 34.798 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/532610471?display=pdf"
+			(at 34.798 106.426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PicoBlade header, single row, right-angle, 1.25mm pitch, 4 pins"
+			(at 34.798 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 34.798 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "532610471"
+			(at 34.798 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Package" "N/A"
+			(at 34.798 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64247c32-5dce-45ef-8a30-d6d5ffafb8e8")
+		)
+		(pin "1"
+			(uuid "19df5b11-3584-4a48-ad03-86abec783750")
+		)
+		(pin "6"
+			(uuid "8469ef6a-4d40-4357-8623-603a10c8a7f3")
+		)
+		(pin "3"
+			(uuid "e484a76b-a644-4690-a030-5339ebc19348")
+		)
+		(pin "4"
+			(uuid "cd86c03e-2741-4537-bd5b-66f002ab86ac")
+		)
+		(pin "5"
+			(uuid "f0488c08-5605-4676-a643-4c6e01a60993")
+		)
+		(instances
+			(project "Load-emulator"
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2695,121 +2771,6 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "532610471:532610471")
-		(at 21.59 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a573936-781f-4147-b37c-15796ed09e57")
-		(property "Reference" "J5"
-			(at 21.59 102.362 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "532610471"
-			(at 21.59 103.632 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "footprints:532610471"
-			(at 34.798 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/532610471?display=pdf"
-			(at 34.798 106.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PicoBlade header, single row, right-angle, 1.25mm pitch, 4 pins"
-			(at 34.798 114.046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 34.798 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "532610471"
-			(at 34.798 110.236 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Package" "N/A"
-			(at 34.798 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5ef152a8-0a9c-48fe-9184-420b5bacbf6f")
-		)
-		(pin "1"
-			(uuid "d0cef6d4-ee95-44bf-ab08-95207af78b21")
-		)
-		(pin "6"
-			(uuid "fa686b28-3585-4099-844c-88b53db27481")
-		)
-		(pin "3"
-			(uuid "1983cd62-0390-4fc6-b644-50c2badc7bf7")
-		)
-		(pin "4"
-			(uuid "5c23927f-69e5-4b80-8c70-14f2a87b0178")
-		)
-		(pin "5"
-			(uuid "c1f8c9b8-74c6-44ba-a4c5-9b24137adbc1")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5036,6 +4997,7 @@
 		)
 	)
 	(symbol
+		(lib_name "532610471_1")
 		(lib_id "532610471:532610471")
 		(at 20.32 86.36 0)
 		(unit 1)
@@ -5043,10 +5005,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb46166e-2dc1-4a24-b7b0-8702610a1386")
 		(property "Reference" "J7"
-			(at 20.32 79.502 0)
+			(at 20.574 75.692 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5055,7 +5016,7 @@
 			)
 		)
 		(property "Value" "532610471"
-			(at 20.32 80.772 0)
+			(at 20.574 76.962 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5283,6 +5244,10 @@
 	(sheet
 		(at 213.36 20.32)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5312,53 +5277,53 @@
 		)
 		(pin "EPS" input
 			(at 227.33 26.67 0)
+			(uuid "121d7ad8-06c2-43c5-b10c-c9491a8f203f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "121d7ad8-06c2-43c5-b10c-c9491a8f203f")
 		)
 		(pin "GND" input
 			(at 224.79 35.56 270)
+			(uuid "1df6369a-58a9-4bb0-b307-370b9317200c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1df6369a-58a9-4bb0-b307-370b9317200c")
 		)
 		(pin "V+" input
 			(at 215.9 35.56 270)
+			(uuid "83604621-cbe0-4d21-87a3-563dff0be837")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "83604621-cbe0-4d21-87a3-563dff0be837")
 		)
 		(pin "V-" input
 			(at 219.71 35.56 270)
+			(uuid "0a37f197-1517-4284-b03f-c69b1de45ceb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0a37f197-1517-4284-b03f-c69b1de45ceb")
 		)
 		(pin "CTRL" input
 			(at 213.36 26.67 180)
+			(uuid "8bf198af-d429-4d60-a5c2-867072c89ffb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8bf198af-d429-4d60-a5c2-867072c89ffb")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5371,6 +5336,10 @@
 	(sheet
 		(at 85.09 53.34)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5401,33 +5370,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 105.41 57.15 0)
+			(uuid "378b2891-78ef-4656-a8c7-8f4301f045fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "378b2891-78ef-4656-a8c7-8f4301f045fe")
 		)
 		(pin "GND" input
 			(at 95.25 63.5 270)
+			(uuid "47422653-be9e-4295-ad32-79e913270bbf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "47422653-be9e-4295-ad32-79e913270bbf")
 		)
 		(pin "PWN_IN" input
 			(at 85.09 57.15 180)
+			(uuid "e465128f-e071-4923-a0c0-3c071e0d240e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e465128f-e071-4923-a0c0-3c071e0d240e")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5440,6 +5409,10 @@
 	(sheet
 		(at 104.14 133.35)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5469,53 +5442,53 @@
 		)
 		(pin "EPS" input
 			(at 118.11 139.7 0)
+			(uuid "b22c1958-7869-4178-b7c8-4f98bb8e460e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b22c1958-7869-4178-b7c8-4f98bb8e460e")
 		)
 		(pin "GND" input
 			(at 115.57 148.59 270)
+			(uuid "9c262f07-f44e-4e22-8c2c-f2b52a7216f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c262f07-f44e-4e22-8c2c-f2b52a7216f5")
 		)
 		(pin "V+" input
 			(at 106.68 148.59 270)
+			(uuid "d43ac6d1-4f18-4644-9caa-fa49745196bf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d43ac6d1-4f18-4644-9caa-fa49745196bf")
 		)
 		(pin "V-" input
 			(at 110.49 148.59 270)
+			(uuid "5f26ad94-9c5c-4abe-993f-7c3f5c7db863")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5f26ad94-9c5c-4abe-993f-7c3f5c7db863")
 		)
 		(pin "CTRL" input
 			(at 104.14 139.7 180)
+			(uuid "871b5815-37b0-46da-b4f1-7580ecc241b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "871b5815-37b0-46da-b4f1-7580ecc241b4")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5528,6 +5501,10 @@
 	(sheet
 		(at 213.36 43.18)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5557,53 +5534,53 @@
 		)
 		(pin "GND" input
 			(at 224.79 58.42 270)
+			(uuid "42d3543d-6dc1-4284-ba46-d935c2a46966")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "42d3543d-6dc1-4284-ba46-d935c2a46966")
 		)
 		(pin "V+" input
 			(at 215.9 58.42 270)
+			(uuid "6ed89378-fe65-4cad-a71b-b9963f4a3f60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6ed89378-fe65-4cad-a71b-b9963f4a3f60")
 		)
 		(pin "V-" input
 			(at 219.71 58.42 270)
+			(uuid "14cc0d17-d565-46a9-8f4a-7a86b9997db6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14cc0d17-d565-46a9-8f4a-7a86b9997db6")
 		)
 		(pin "CTRL" input
 			(at 213.36 49.53 180)
+			(uuid "fa6e70d6-d066-4676-9cea-1f122e076830")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fa6e70d6-d066-4676-9cea-1f122e076830")
 		)
 		(pin "EPS" input
 			(at 227.33 49.53 0)
+			(uuid "f4cb79a1-d3d2-4095-a46f-4719322f6a28")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f4cb79a1-d3d2-4095-a46f-4719322f6a28")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5616,6 +5593,10 @@
 	(sheet
 		(at 181.61 121.92)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5646,33 +5627,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 201.93 125.73 0)
+			(uuid "2176aff1-9ebc-4fbf-a5fd-bfc5703f088d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2176aff1-9ebc-4fbf-a5fd-bfc5703f088d")
 		)
 		(pin "GND" input
 			(at 191.77 132.08 270)
+			(uuid "60a2ace7-c754-4c75-ac68-d1404228e163")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "60a2ace7-c754-4c75-ac68-d1404228e163")
 		)
 		(pin "PWN_IN" input
 			(at 181.61 125.73 180)
+			(uuid "cae0f4ab-abe5-407b-9ae5-1c339f3e58d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cae0f4ab-abe5-407b-9ae5-1c339f3e58d6")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5685,6 +5666,10 @@
 	(sheet
 		(at 213.36 66.04)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5714,53 +5699,53 @@
 		)
 		(pin "GND" input
 			(at 224.79 81.28 270)
+			(uuid "b0024383-2456-409d-9251-86975cd8041a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b0024383-2456-409d-9251-86975cd8041a")
 		)
 		(pin "V+" input
 			(at 215.9 81.28 270)
+			(uuid "2bb7a438-94fe-4fb1-8d7b-0a421a831f76")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2bb7a438-94fe-4fb1-8d7b-0a421a831f76")
 		)
 		(pin "V-" input
 			(at 219.71 81.28 270)
+			(uuid "2e0aead3-3012-4f88-b81e-8767739cd849")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2e0aead3-3012-4f88-b81e-8767739cd849")
 		)
 		(pin "CTRL" input
 			(at 213.36 72.39 180)
+			(uuid "095fbf6b-e147-4457-84e5-475afefb9303")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "095fbf6b-e147-4457-84e5-475afefb9303")
 		)
 		(pin "EPS" input
 			(at 227.33 72.39 0)
+			(uuid "8444c0fd-ac55-4efb-9763-fa86ee493882")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8444c0fd-ac55-4efb-9763-fa86ee493882")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5773,6 +5758,10 @@
 	(sheet
 		(at 111.76 19.05)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5802,53 +5791,53 @@
 		)
 		(pin "EPS" input
 			(at 125.73 25.4 0)
+			(uuid "beb7ffb9-3915-49d2-8a12-ef43fd2011b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "beb7ffb9-3915-49d2-8a12-ef43fd2011b8")
 		)
 		(pin "GND" input
 			(at 123.19 34.29 270)
+			(uuid "53bdbd59-2eb4-4cbc-b307-64069116e3bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "53bdbd59-2eb4-4cbc-b307-64069116e3bb")
 		)
 		(pin "V+" input
 			(at 114.3 34.29 270)
+			(uuid "b613ff12-66aa-4848-9141-5f5424068b4a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b613ff12-66aa-4848-9141-5f5424068b4a")
 		)
 		(pin "V-" input
 			(at 118.11 34.29 270)
+			(uuid "2b42bba3-6ad4-4545-958f-38141d08887d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2b42bba3-6ad4-4545-958f-38141d08887d")
 		)
 		(pin "CTRL" input
 			(at 111.76 25.4 180)
+			(uuid "77ab452a-2ddf-4ae1-b2ff-3483d5acc82d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "77ab452a-2ddf-4ae1-b2ff-3483d5acc82d")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5861,6 +5850,10 @@
 	(sheet
 		(at 182.88 45.72)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5891,33 +5884,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 203.2 49.53 0)
+			(uuid "bbb4fb47-1ec8-4e6e-b9be-286e29647637")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bbb4fb47-1ec8-4e6e-b9be-286e29647637")
 		)
 		(pin "GND" input
 			(at 193.04 55.88 270)
+			(uuid "b363aec8-89d5-4953-9850-c821f1edddfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b363aec8-89d5-4953-9850-c821f1edddfd")
 		)
 		(pin "PWN_IN" input
 			(at 182.88 49.53 180)
+			(uuid "1d65e390-cc0f-40fd-a34c-f5fa33cff47a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1d65e390-cc0f-40fd-a34c-f5fa33cff47a")
 		)
 		(instances
 			(project "Load-emulator"
@@ -5930,6 +5923,10 @@
 	(sheet
 		(at 212.09 142.24)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5959,53 +5956,53 @@
 		)
 		(pin "GND" input
 			(at 223.52 157.48 270)
+			(uuid "ba7f8e5c-398a-4817-930e-0a7a44f2c483")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ba7f8e5c-398a-4817-930e-0a7a44f2c483")
 		)
 		(pin "V+" input
 			(at 214.63 157.48 270)
+			(uuid "fafa47cf-cc32-4af4-9f62-546cdb91fc72")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fafa47cf-cc32-4af4-9f62-546cdb91fc72")
 		)
 		(pin "V-" input
 			(at 218.44 157.48 270)
+			(uuid "9ea0b7dc-d182-4aa5-bee7-af65a91dcfb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9ea0b7dc-d182-4aa5-bee7-af65a91dcfb7")
 		)
 		(pin "CTRL" input
 			(at 212.09 148.59 180)
+			(uuid "1ece8612-75c6-4cdb-92cd-c8b16ab63b7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1ece8612-75c6-4cdb-92cd-c8b16ab63b7f")
 		)
 		(pin "EPS" input
 			(at 226.06 148.59 0)
+			(uuid "79594109-b036-4536-a4a8-1b495eee491c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "79594109-b036-4536-a4a8-1b495eee491c")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6018,6 +6015,10 @@
 	(sheet
 		(at 76.2 163.83)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6048,33 +6049,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 96.52 167.64 0)
+			(uuid "8589d90c-e61f-4316-bc44-848324eafd04")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8589d90c-e61f-4316-bc44-848324eafd04")
 		)
 		(pin "GND" input
 			(at 86.36 173.99 270)
+			(uuid "e3efd099-8fd7-4a64-b2f1-947b69a4015d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e3efd099-8fd7-4a64-b2f1-947b69a4015d")
 		)
 		(pin "PWN_IN" input
 			(at 76.2 167.64 180)
+			(uuid "12ffb292-c91a-4a2c-9b95-c1fb66b06c84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "12ffb292-c91a-4a2c-9b95-c1fb66b06c84")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6087,6 +6088,10 @@
 	(sheet
 		(at 101.6 161.29)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6116,53 +6121,53 @@
 		)
 		(pin "EPS" input
 			(at 115.57 167.64 0)
+			(uuid "426f0c4f-2a88-4392-9718-68d5f38374be")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "426f0c4f-2a88-4392-9718-68d5f38374be")
 		)
 		(pin "GND" input
 			(at 113.03 176.53 270)
+			(uuid "4079dbb0-bb7e-4932-9983-2b9051e69f6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4079dbb0-bb7e-4932-9983-2b9051e69f6f")
 		)
 		(pin "V+" input
 			(at 104.14 176.53 270)
+			(uuid "91593fa5-96ff-42cc-abcf-114e75344e60")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "91593fa5-96ff-42cc-abcf-114e75344e60")
 		)
 		(pin "V-" input
 			(at 107.95 176.53 270)
+			(uuid "ac1e2f38-9e3e-4d52-a0ae-cbeb43e1cd0c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ac1e2f38-9e3e-4d52-a0ae-cbeb43e1cd0c")
 		)
 		(pin "CTRL" input
 			(at 101.6 167.64 180)
+			(uuid "733abda5-33c4-4a88-b15c-5e1a3f8f5ff1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "733abda5-33c4-4a88-b15c-5e1a3f8f5ff1")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6175,6 +6180,10 @@
 	(sheet
 		(at 104.14 110.49)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6204,53 +6213,53 @@
 		)
 		(pin "GND" input
 			(at 115.57 125.73 270)
+			(uuid "d03319f4-9056-4e5f-87f7-dae8011a4e0b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d03319f4-9056-4e5f-87f7-dae8011a4e0b")
 		)
 		(pin "CTRL" input
 			(at 104.14 116.84 180)
+			(uuid "f05d0f21-fc31-4ff8-9257-aabec77951ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f05d0f21-fc31-4ff8-9257-aabec77951ec")
 		)
 		(pin "EPS" input
 			(at 118.11 116.84 0)
+			(uuid "463919d5-0e14-4286-b9e0-874a10b523e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "463919d5-0e14-4286-b9e0-874a10b523e3")
 		)
 		(pin "V-" input
 			(at 110.49 125.73 270)
+			(uuid "a25b412e-82df-44b5-8ae3-e795d509b157")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a25b412e-82df-44b5-8ae3-e795d509b157")
 		)
 		(pin "V+" input
 			(at 106.68 125.73 270)
+			(uuid "bb047296-1f80-4b2e-991f-84cd9159434c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bb047296-1f80-4b2e-991f-84cd9159434c")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6263,6 +6272,10 @@
 	(sheet
 		(at 212.09 96.52)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6292,53 +6305,53 @@
 		)
 		(pin "EPS" input
 			(at 226.06 102.87 0)
+			(uuid "e5848ebb-6589-4f8d-b190-1e160d8d76e3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e5848ebb-6589-4f8d-b190-1e160d8d76e3")
 		)
 		(pin "GND" input
 			(at 223.52 111.76 270)
+			(uuid "eb8855b7-258e-44e5-8742-42bafcb92cd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "eb8855b7-258e-44e5-8742-42bafcb92cd5")
 		)
 		(pin "V+" input
 			(at 214.63 111.76 270)
+			(uuid "b1883a22-6c2a-4c2e-9163-f944cdefc71b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b1883a22-6c2a-4c2e-9163-f944cdefc71b")
 		)
 		(pin "V-" input
 			(at 218.44 111.76 270)
+			(uuid "06650aaf-5835-4ac2-a6f7-f84a98cc8dfe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06650aaf-5835-4ac2-a6f7-f84a98cc8dfe")
 		)
 		(pin "CTRL" input
 			(at 212.09 102.87 180)
+			(uuid "c117d36c-1b11-48fd-adfb-70a2fa17c196")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c117d36c-1b11-48fd-adfb-70a2fa17c196")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6351,6 +6364,10 @@
 	(sheet
 		(at 111.76 82.55)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6380,53 +6397,53 @@
 		)
 		(pin "GND" input
 			(at 123.19 97.79 270)
+			(uuid "bf5cd91f-d643-4c00-89ad-14023e48b1e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf5cd91f-d643-4c00-89ad-14023e48b1e0")
 		)
 		(pin "CTRL" input
 			(at 111.76 88.9 180)
+			(uuid "0476ba8c-d96f-41f0-8030-9865672d4af5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0476ba8c-d96f-41f0-8030-9865672d4af5")
 		)
 		(pin "EPS" input
 			(at 125.73 88.9 0)
+			(uuid "9e77ff8a-37e0-400e-98fb-d684b7b3dade")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9e77ff8a-37e0-400e-98fb-d684b7b3dade")
 		)
 		(pin "V-" input
 			(at 118.11 97.79 270)
+			(uuid "9ee494fd-77b0-420e-85e6-9ebcacdc7b3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9ee494fd-77b0-420e-85e6-9ebcacdc7b3a")
 		)
 		(pin "V+" input
 			(at 114.3 97.79 270)
+			(uuid "72fae4e9-2cfe-4e8d-a924-3049113b3e4c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "72fae4e9-2cfe-4e8d-a924-3049113b3e4c")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6439,6 +6456,10 @@
 	(sheet
 		(at 83.82 85.09)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6469,33 +6490,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 104.14 88.9 0)
+			(uuid "ecf7ee72-374a-4312-9ff7-6dc64e8fc207")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ecf7ee72-374a-4312-9ff7-6dc64e8fc207")
 		)
 		(pin "GND" input
 			(at 93.98 95.25 270)
+			(uuid "a9a15e20-be14-4b0f-98db-18c19c532afc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a9a15e20-be14-4b0f-98db-18c19c532afc")
 		)
 		(pin "PWN_IN" input
 			(at 83.82 88.9 180)
+			(uuid "925f5e7b-306c-49bc-9443-ab87c262f76e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "925f5e7b-306c-49bc-9443-ab87c262f76e")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6508,6 +6529,10 @@
 	(sheet
 		(at 113.03 50.8)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6537,53 +6562,53 @@
 		)
 		(pin "GND" input
 			(at 124.46 66.04 270)
+			(uuid "b0be9dc5-fa4d-468a-9f7a-a48bc30fb613")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b0be9dc5-fa4d-468a-9f7a-a48bc30fb613")
 		)
 		(pin "V+" input
 			(at 115.57 66.04 270)
+			(uuid "864a2b87-08ca-4670-87c3-46f5a0de655c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "864a2b87-08ca-4670-87c3-46f5a0de655c")
 		)
 		(pin "V-" input
 			(at 119.38 66.04 270)
+			(uuid "8ef2c996-0536-49a1-b953-faef3a1a3642")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8ef2c996-0536-49a1-b953-faef3a1a3642")
 		)
 		(pin "CTRL" input
 			(at 113.03 57.15 180)
+			(uuid "a72c2a32-e797-438c-979f-62209c193393")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a72c2a32-e797-438c-979f-62209c193393")
 		)
 		(pin "EPS" input
 			(at 127 57.15 0)
+			(uuid "20f2d983-478c-4145-a492-6e77400b87bc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "20f2d983-478c-4145-a492-6e77400b87bc")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6596,6 +6621,10 @@
 	(sheet
 		(at 83.82 21.59)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6626,33 +6655,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 104.14 25.4 0)
+			(uuid "083da3ca-a6c7-4776-bfc1-4b5a6e344c26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "083da3ca-a6c7-4776-bfc1-4b5a6e344c26")
 		)
 		(pin "GND" input
 			(at 93.98 31.75 270)
+			(uuid "d47480be-a326-4f52-8254-f437c7b0ddc2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d47480be-a326-4f52-8254-f437c7b0ddc2")
 		)
 		(pin "PWN_IN" input
 			(at 83.82 25.4 180)
+			(uuid "f970c01e-0eed-489d-aa9c-6660a8c1957c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f970c01e-0eed-489d-aa9c-6660a8c1957c")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6665,6 +6694,10 @@
 	(sheet
 		(at 212.09 119.38)
 		(size 13.97 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -6694,53 +6727,53 @@
 		)
 		(pin "GND" input
 			(at 223.52 134.62 270)
+			(uuid "8eaceb08-64f7-4507-98af-ae4037aa2ba7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8eaceb08-64f7-4507-98af-ae4037aa2ba7")
 		)
 		(pin "V+" input
 			(at 214.63 134.62 270)
+			(uuid "622672d8-9c4b-4e2c-ad4b-a43d6d776b3c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "622672d8-9c4b-4e2c-ad4b-a43d6d776b3c")
 		)
 		(pin "V-" input
 			(at 218.44 134.62 270)
+			(uuid "a2ee5f03-7947-4535-90de-afe284222f03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a2ee5f03-7947-4535-90de-afe284222f03")
 		)
 		(pin "CTRL" input
 			(at 212.09 125.73 180)
+			(uuid "e75f24ce-19bc-4e08-9c3e-f0646f5c164c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e75f24ce-19bc-4e08-9c3e-f0646f5c164c")
 		)
 		(pin "EPS" input
 			(at 226.06 125.73 0)
+			(uuid "3af021ca-41ce-4362-b4a1-202ef95006cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3af021ca-41ce-4362-b4a1-202ef95006cc")
 		)
 		(instances
 			(project "Load-emulator"
@@ -6753,6 +6786,10 @@
 	(sheet
 		(at 76.2 121.92)
 		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -6783,33 +6820,33 @@
 		)
 		(pin "DC_OUT" input
 			(at 96.52 125.73 0)
+			(uuid "dfadd2cd-6453-45d3-a332-493ea8095f15")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dfadd2cd-6453-45d3-a332-493ea8095f15")
 		)
 		(pin "GND" input
 			(at 86.36 132.08 270)
+			(uuid "a59aef6c-d015-480b-a4da-3a410e0da55d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a59aef6c-d015-480b-a4da-3a410e0da55d")
 		)
 		(pin "PWN_IN" input
 			(at 76.2 125.73 180)
+			(uuid "f367f22a-61dc-459a-a650-1c6661ea13e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f367f22a-61dc-459a-a650-1c6661ea13e6")
 		)
 		(instances
 			(project "Load-emulator"
