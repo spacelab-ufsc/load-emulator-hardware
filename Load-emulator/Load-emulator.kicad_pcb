@@ -15,39 +15,64 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
-		(9 "F.Adhes" user "F.Adhesive")
-		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
 		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
-		(17 "Dwgs.User" user "User.Drawings")
-		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
-		(45 "User.4" user)
-		(47 "User.5" user)
-		(49 "User.6" user)
-		(51 "User.7" user)
-		(53 "User.8" user)
-		(55 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
+		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 123.845 120.45)
+		(grid_origin 184.495 58.52)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -4877,11 +4902,11 @@
 	(footprint "footprints:SSW-126-01-G-D"
 		(layer "F.Cu")
 		(uuid "3fa2e580-0573-4654-ac9a-238115bcceba")
-		(at 152.75 62.73)
+		(at 152.745 62.33)
 		(property "Reference" "J3"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "7c05be0c-6529-43c2-9e3f-ca364a28c824")
+			(uuid "cb1d7ba1-c7f5-4afd-a481-959f22e61a14")
 			(effects
 				(font
 					(size 1 1)
@@ -4892,7 +4917,7 @@
 		(property "Value" "SSW-126-04-G-D"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "cacdbd11-06f1-43aa-9d91-929373f4bddc")
+			(uuid "11d60461-8a72-4ebf-9d73-ecda1a202f06")
 			(effects
 				(font
 					(size 1 1)
@@ -4904,7 +4929,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f0349ad-c45e-4642-b7f6-a3e00e6c8e3f")
+			(uuid "7a1a8620-8bd5-488c-9486-8a66833bf0e1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4941,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ea202ae-606b-462f-9f6a-e4ff2d22bb40")
+			(uuid "df7a9a0e-b85b-4fd1-8292-358644e146d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17392,7 +17417,7 @@
 		(property "Reference" "J2"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "cc4977e3-90f8-4e2e-972b-b063fea9c198")
+			(uuid "650ea701-2936-4e0e-8e72-ccba31390780")
 			(effects
 				(font
 					(size 1 1)
@@ -17403,7 +17428,7 @@
 		(property "Value" "SSW-126-04-G-D"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "1b11003a-d9b8-4dd0-99aa-b0d40fd7034d")
+			(uuid "112f17e5-8b8f-4c06-9ac3-462835a1fce0")
 			(effects
 				(font
 					(size 1 1)
@@ -17415,7 +17440,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ef713af-4112-4682-8db9-8530910f8583")
+			(uuid "f5681996-6ddc-45e6-9c54-70b5ae7fa540")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17427,7 +17452,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c880fde3-9633-47f8-a87c-52f038a0448b")
+			(uuid "e9f52a4c-9aff-42ca-8774-bdb011444983")
 			(effects
 				(font
 					(size 1.27 1.27)
