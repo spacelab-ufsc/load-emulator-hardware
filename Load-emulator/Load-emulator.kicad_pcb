@@ -351,7 +351,7 @@
 		(property "Reference" "R11"
 			(at 0.57 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "cf44c3fb-f01f-435d-839a-a4f3ab04a2ff")
+			(uuid "61bf841e-a024-4c02-a9a0-5b1ef3b4f76b")
 			(effects
 				(font
 					(size 1 1)
@@ -363,7 +363,7 @@
 			(at 0 1.05 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ec16011-6fdc-43de-b0ad-a38f7ddef76a")
+			(uuid "7e19ddf8-80f0-4a44-be1a-cf68597c0417")
 			(effects
 				(font
 					(size 1 1)
@@ -376,7 +376,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ec4a2c7-d3c7-476e-9776-ed187757ef0b")
+			(uuid "5a8994fb-8e4e-47ff-af89-e926d1186089")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -389,7 +389,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cab6b6c3-74c4-436c-aa84-ff122a1bafea")
+			(uuid "ec06d6a8-2139-4d0d-8b8c-01548c9ae582")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4264,7 @@
 	(footprint "lib:spacelab-logo"
 		(layer "F.Cu")
 		(uuid "3c84e98f-3d36-47bc-9340-eb56085ddb21")
-		(at 192.5 94.5 90)
+		(at 192.5 98.7 90)
 		(property "Reference" "G***"
 			(at 0.254 4.064 90)
 			(layer "F.SilkS")
@@ -20352,6 +20352,19 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e00b41c3-e7b6-4974-bc3e-63c725cebccd")
+	)
+	(gr_text "Load-Emulator v0.1"
+		(at 141.595 137.8 0)
+		(layer "F.SilkS")
+		(uuid "220c8bd1-8296-4391-804e-e167f25d3a57")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 125.885 108.61)

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "47c74e39-51dd-4763-87bb-634dd359853f")
 	(paper "A4")
+	(title_block
+		(title "Load Emulator")
+		(company "Spacelab")
+		(comment 2 "Fernanda Paiva de Morais <Fernandapaivamorais@gmail.com>")
+		(comment 3 "Theo M. A. de Vasconcellos <Theomatiasav@gmail.com>")
+	)
 	(lib_symbols
 		(symbol "532610471_1"
 			(pin_names
