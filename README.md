@@ -2,11 +2,16 @@
 <h1 align="center">
 LOAD EMULATOR HARDWARE  
   <br>
+#load-emulator-hardware
+
+<h1 align="center">
+LOAD EMULATOR HARDWARE
 </h1>
 
 <p align="center">
-    <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/status-under_review-yellow"></a>
+    <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/status-em_teste-yellow"></a>
 </p>
+
 
 <details>
     <summary><b>Summary</b></summary>
@@ -35,7 +40,7 @@ O **Load Emulator Hardware** é um projeto desenvolvido com o objetivo de **simu
 
 O circuito foi desenvolvido no **KiCad** e emprega **amplificadores operacionais LM318**, **transistores** e **resistores de potência** para simular a carga desejada. O que permite flexibilidade e precisão nos testes de bancada.
 
-Este projeto foi pensado especialmente para **testes em solo** dos satélites FloripaSat-RE , do SpaceLab.
+Este projeto foi pensado especialmente para **testes em solo** dos satélites FloripaSat-RE , do SpaceLab. Visando as demandas de carga desejadas. 
 
 <p align="center">
     <img src="figs/load_emulator_render.png" alt="3D render of Load Emulator PCB">
@@ -55,7 +60,6 @@ Este projeto foi pensado especialmente para **testes em solo** dos satélites Fl
 ## License
 
 _Em definição._  
-Caso deseje publicar o projeto como open hardware, uma boa opção é a **CERN Open Hardware License v2.0**. Se quiser, posso te ajudar a incluir ela aqui depois. 😉
 
 ## Notes
 
@@ -65,7 +69,7 @@ Projeto desenvolvido por membros do [SpaceLab - UFSC](https://spacelab.ufsc.br),
 
 - FloripaSat-1 e FloripaSat-2 – SpaceLab / UFSC  
 - Desenvolvido por: **Fernanda Paiva de Morais** e **Theo M. Vasconcellos**  
-- Revisado por: **João C. E. Bacelos**
+- Revisão por: **João C. E. Bacelos**
 
 ---
 
