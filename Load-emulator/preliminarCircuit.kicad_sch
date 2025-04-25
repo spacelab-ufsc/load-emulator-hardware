@@ -1935,7 +1935,7 @@
 			)
 		)
 	)
-	(global_label "VBus"
+	(global_label "5V_Payload"
 		(shape input)
 		(at 29.21 113.03 0)
 		(fields_autoplaced yes)
@@ -1947,7 +1947,7 @@
 		)
 		(uuid "95c96f18-5c6b-4bfe-a16e-a72bde0b926c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.7309 113.03 0)
+			(at 42.9597 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2199,7 @@
 			)
 		)
 	)
-	(global_label "5V_Payload"
+	(global_label "VBus"
 		(shape input)
 		(at 29.21 104.14 0)
 		(fields_autoplaced yes)
@@ -2211,7 +2211,7 @@
 		)
 		(uuid "c2ec7a6a-898e-4839-9764-535fdf4ee32f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9597 104.14 0)
+			(at 36.7309 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
