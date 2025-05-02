@@ -269,33 +269,33 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "533980771:533980771"
+		(symbol "533980871:533980871"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -7.62 13.97 0)
+			(property "Reference" "J8"
+				(at 8.89 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "533980771"
-				(at -5.588 -10.922 0)
+			(property "Value" "533980871"
+				(at 8.89 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "533980771:MOLEX_533980771"
-				(at 16.764 -49.022 0)
+			(property "Footprint" "533980871:MOLEX_533980871"
+				(at 12.446 35.052 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -323,7 +323,7 @@
 				)
 			)
 			(property "MF" "Molex"
-				(at 33.528 -12.7 0)
+				(at 18.542 44.704 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -333,7 +333,7 @@
 				)
 			)
 			(property "MAXIMUM_PACKAGE_HEIGHT" "4.7 mm"
-				(at 17.272 2.032 0)
+				(at 7.62 35.052 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -343,7 +343,7 @@
 				)
 			)
 			(property "Package" "None"
-				(at 16.764 6.35 0)
+				(at 22.352 43.942 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -353,7 +353,7 @@
 				)
 			)
 			(property "Price" "None"
-				(at 20.066 8.128 0)
+				(at 2.032 37.338 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -362,8 +362,8 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/533980771/Molex/view-part/?ref=eda"
-				(at 19.558 -54.864 0)
+			(property "Check_prices" "https://www.snapeda.com/parts/533980871/Molex/view-part/?ref=eda"
+				(at -14.478 37.084 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -373,7 +373,7 @@
 				)
 			)
 			(property "STANDARD" "Manufacturer Recommendations"
-				(at 44.704 -8.636 0)
+				(at 10.922 37.084 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -383,7 +383,7 @@
 				)
 			)
 			(property "PARTREV" "A"
-				(at 16.002 11.176 0)
+				(at 4.826 30.226 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -392,8 +392,8 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/533980771/Molex/view-part/?ref=snap"
-				(at 2.032 -39.37 0)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/533980871/Molex/view-part/?ref=snap"
+				(at -14.478 37.084 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -402,8 +402,8 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "533980771"
-				(at 32.258 -11.938 0)
+			(property "MP" "533980871"
+				(at 3.302 32.258 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -412,8 +412,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Conn Shrouded Header (3 Sides) HDR 7 POS 1.25mm Solder ST Top Entry SMD PicoBlade™ T/R\n                        \n"
-				(at -0.254 -32.004 0)
+			(property "Description_1" "Connector Header Surface Mount 8 position 0.049 (1.25mm)"
+				(at -14.478 37.084 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -423,7 +423,7 @@
 				)
 			)
 			(property "Availability" "In Stock"
-				(at 25.908 -23.876 0)
+				(at 5.588 33.274 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -433,7 +433,7 @@
 				)
 			)
 			(property "MANUFACTURER" "Molex"
-				(at 16.764 1.016 0)
+				(at 16.764 44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -442,10 +442,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "533980771_0_0"
+			(symbol "533980871_0_0"
 				(polyline
 					(pts
-						(xy -6.35 11.43) (xy -6.35 -7.62)
+						(xy -7.62 15.24) (xy -7.62 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -457,7 +457,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 -7.62) (xy 6.35 -7.62)
+						(xy -7.62 12.7) (xy -5.715 12.7)
 					)
 					(stroke
 						(width 0.254)
@@ -469,7 +469,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 11.43) (xy -6.35 11.43)
+						(xy -7.62 10.16) (xy -5.715 10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -481,7 +481,191 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -7.62) (xy 6.35 11.43)
+						(xy -7.62 7.62) (xy -5.715 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -5.715 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -5.715 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -5.715 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -5.715 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy -5.715 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.985 12.3825)
+					(end -5.3975 13.0175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 9.8425)
+					(end -5.3975 10.4775)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 7.3025)
+					(end -5.3975 7.9375)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 4.7625)
+					(end -5.3975 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 2.2225)
+					(end -5.3975 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -0.3175)
+					(end -5.3975 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -2.8575)
+					(end -5.3975 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.985 -5.3975)
+					(end -5.3975 -4.7625)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 15.24) (xy -7.62 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 15.24)
 					)
 					(stroke
 						(width 0.254)
@@ -492,7 +676,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 8.89 0)
+					(at -12.7 12.7 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -510,7 +694,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 6.35 0)
+					(at -12.7 10.16 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -528,7 +712,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 3.81 0)
+					(at -12.7 7.62 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -546,7 +730,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 1.27 0)
+					(at -12.7 5.08 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -564,7 +748,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -1.27 0)
+					(at -12.7 2.54 0)
 					(length 5.08)
 					(name "5"
 						(effects
@@ -582,7 +766,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -3.81 0)
+					(at -12.7 0 0)
 					(length 5.08)
 					(name "6"
 						(effects
@@ -600,7 +784,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -6.35 0)
+					(at -12.7 -2.54 0)
 					(length 5.08)
 					(name "7"
 						(effects
@@ -610,6 +794,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1443,8 +1645,18 @@
 		)
 		(uuid "fe0f4e0b-1721-4eb6-836c-b30aeb54e17b")
 	)
-	(label "Channel 7"
+	(label "GND"
 		(at 36.83 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "073f48e2-716f-4c4b-8ca7-b6b1a52222c9")
+	)
+	(label "Channel 7"
+		(at 36.83 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1464,7 +1676,7 @@
 		(uuid "22d09d05-08a9-43a5-92f0-019b7f30bbdf")
 	)
 	(label "Channel 2"
-		(at 36.83 29.21 180)
+		(at 36.83 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1474,7 +1686,7 @@
 		(uuid "5a088f98-d6c1-4ba1-b907-9dd56467f6ce")
 	)
 	(label "Channel 5"
-		(at 36.83 36.83 180)
+		(at 36.83 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1494,7 +1706,7 @@
 		(uuid "62c519ee-c9b6-4706-9566-75259fe60103")
 	)
 	(label "Channel 4"
-		(at 36.83 34.29 180)
+		(at 36.83 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1544,7 +1756,7 @@
 		(uuid "a369cd72-37f5-4555-b62b-477d02462239")
 	)
 	(label "Channel 6"
-		(at 36.83 39.37 180)
+		(at 36.83 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1564,7 +1776,7 @@
 		(uuid "c5d2acff-c9f1-4a19-a124-4fe8aa425a08")
 	)
 	(label "Channel 1"
-		(at 36.83 26.67 180)
+		(at 36.83 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1574,7 +1786,7 @@
 		(uuid "cc436636-9de4-4abc-9885-8e3bb2511eb9")
 	)
 	(label "Channel 3"
-		(at 36.83 31.75 180)
+		(at 36.83 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2839,211 +3051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "533980771:533980771")
-		(at 48.26 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5eac906d-7a79-4657-a17d-b3e8f347ae4b")
-		(property "Reference" "J4"
-			(at 55.88 32.3849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "533980771"
-			(at 42.418 22.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53398-0771_1x07-1MP_P1.25mm_Vertical"
-			(at 65.024 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 81.788 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.7 mm"
-			(at 65.532 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 65.024 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 68.326 27.432 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/533980771/Molex/view-part/?ref=eda"
-			(at 67.818 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 92.964 44.196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 64.262 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/533980771/Molex/view-part/?ref=snap"
-			(at 50.292 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "533980771"
-			(at 80.518 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Conn Shrouded Header (3 Sides) HDR 7 POS 1.25mm Solder ST Top Entry SMD PicoBlade™ T/R\n                        \n"
-			(at 48.006 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 74.168 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 65.024 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "8eb707ea-75e3-4e25-907a-29a1171564be")
-		)
-		(pin "5"
-			(uuid "92038522-ac97-4d2d-a471-e60045dd867d")
-		)
-		(pin "1"
-			(uuid "6ff58236-dd92-4acd-b417-15fd88123cd0")
-		)
-		(pin "2"
-			(uuid "f13bec67-94b9-4668-a47b-25fedc0e0132")
-		)
-		(pin "3"
-			(uuid "5578a9b7-9a0d-432a-aa93-76c8ae15fbe8")
-		)
-		(pin "4"
-			(uuid "33c48429-f55e-40da-bca7-51240b144a6a")
-		)
-		(pin "7"
-			(uuid "a0050cbf-7c6b-47a3-8d17-c60881df3ca7")
-		)
-		(instances
-			(project ""
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 176.53 0)
 		(unit 1)
@@ -3496,6 +3503,215 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "533980871:533980871")
+		(at 49.53 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c06f27-5998-43ef-96e1-7410f461256d")
+		(property "Reference" "J9"
+			(at 58.42 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "533980871"
+			(at 58.42 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:MOLEX_533980871"
+			(at 61.976 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Molex"
+			(at 68.072 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.7 mm"
+			(at 57.15 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 71.882 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 51.562 -0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/533980871/Molex/view-part/?ref=eda"
+			(at 35.052 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 60.452 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 54.356 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/533980871/Molex/view-part/?ref=snap"
+			(at 35.052 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "533980871"
+			(at 52.832 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Surface Mount 8 position 0.049 (1.25mm)"
+			(at 35.052 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 55.118 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 66.294 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b74b0300-f577-4f17-85d8-60db87070db0")
+		)
+		(pin "6"
+			(uuid "b3305625-5267-4f11-9a67-e2d7be181ecb")
+		)
+		(pin "1"
+			(uuid "082226bc-a925-46c1-9724-db4ab78c2640")
+		)
+		(pin "2"
+			(uuid "c4869d26-5454-4873-a4d4-374d8374cc6a")
+		)
+		(pin "3"
+			(uuid "526cd769-54dc-4a26-b996-43b1fbd0053a")
+		)
+		(pin "5"
+			(uuid "1626c08f-246e-433e-98c6-36952a564c93")
+		)
+		(pin "8"
+			(uuid "063d195d-f651-4f22-973a-eee172217995")
+		)
+		(pin "7"
+			(uuid "d8661e52-fa11-40c5-8ac4-e5c335d0edf9")
+		)
+		(instances
+			(project "Load-emulator"
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
+					(reference "J9")
 					(unit 1)
 				)
 			)
