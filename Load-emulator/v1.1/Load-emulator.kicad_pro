@@ -198,7 +198,9 @@
         0.254,
         0.3048,
         0.508,
-        0.762
+        0.57,
+        0.762,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -230,14 +232,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.25,
-          "drill": 0.4
-        },
-        {
-          "diameter": 0.4064,
-          "drill": 0.2032
         },
         {
           "diameter": 0.4572,
@@ -522,6 +516,7 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.4572,
@@ -539,6 +534,7 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.4572,
@@ -733,20 +729,12 @@
       "Current Sink 2A3"
     ],
     [
-      "29914013-a477-4717-a7a5-21a772c92b2e",
-      "Current Sink 2A4"
-    ],
-    [
       "00308429-beaf-4782-9e5d-10502f61f5c3",
       "Current Sink 1A3"
     ],
     [
       "128c0139-7aee-4d92-8032-2b2c6fcc70a3",
       "Current Sink 2A5"
-    ],
-    [
-      "1c64d8a3-ab27-4c28-be0a-61e164321225",
-      "Current Sink 2A6"
     ],
     [
       "22b8b696-77df-4086-a98d-b0dbe5026769",
