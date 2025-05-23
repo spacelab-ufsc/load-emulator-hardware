@@ -753,11 +753,33 @@
 		)
 		(uuid "2ef6525b-b19b-4602-88f2-c0b89721b1de")
 	)
+	(text "1R8 em paralelo porque\nnão achei resistores de 0.9ohms\nde potencia à venda"
+		(exclude_from_sim no)
+		(at 183.134 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a47c351c-bc8a-438d-b555-57bb8c63b203")
+	)
+	(junction
+		(at 165.1 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8edcaba-863b-4645-93a4-a52834c84532")
+	)
 	(junction
 		(at 165.1 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d92dc2cf-8277-4ea7-b2b8-500134adc107")
+	)
+	(junction
+		(at 161.29 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e31e07a7-854f-4588-88be-bc3ae6814924")
 	)
 	(no_connect
 		(at 138.43 97.79)
@@ -783,6 +805,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 111.76) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e0046e-397c-413e-a763-c7d47866a493")
+	)
+	(wire
+		(pts
 			(xy 165.1 76.2) (xy 165.1 85.09)
 		)
 		(stroke
@@ -803,7 +835,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 165.1 113.03)
+			(xy 161.29 100.33) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac4e229-eb52-4d57-a9cb-138fe8ff2dba")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -813,7 +855,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 100.33) (xy 165.1 100.33)
+			(xy 128.27 100.33) (xy 161.29 100.33)
 		)
 		(stroke
 			(width 0)
@@ -830,6 +872,16 @@
 			(type default)
 		)
 		(uuid "83949916-95ff-446e-abbc-e146ba3bec34")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f52fa77-6eaf-4a49-ab8b-75e8c3b4787d")
 	)
 	(wire
 		(pts
@@ -850,6 +902,16 @@
 			(type default)
 		)
 		(uuid "ae88b856-37ac-4b29-862d-78975c141217")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa3de04-8681-4fe1-9b5c-b75d72ae44ed")
 	)
 	(wire
 		(pts
@@ -935,7 +997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.9Ω"
+		(property "Value" "1.8Ω"
 			(at 167.64 107.9499 0)
 			(effects
 				(font
@@ -1274,6 +1336,91 @@
 				)
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/ecd08cfa-ace2-4c26-a75b-4cdb3b0fd9bc"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 161.29 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1678e8d-1235-4d77-bd8a-b7056b3073a7")
+		(property "Reference" "R26"
+			(at 154.94 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8Ω"
+			(at 154.94 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 162.306 108.204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 161.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d79208-59b1-41a0-9837-e57325be4cfc")
+		)
+		(pin "2"
+			(uuid "0de55e57-7ffd-4c79-b013-9d8e9870ec41")
+		)
+		(instances
+			(project "Load-emulator"
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/128c0139-7aee-4d92-8032-2b2c6fcc70a3"
+					(reference "R28.1")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/87a0f9ee-fa92-48a0-98d1-72d297c3468c"
+					(reference "R36")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/c40377b4-6929-4e4a-ac2d-4b484617f896"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/e0ddf382-1b56-45d3-a566-5cd39e11bb78"
+					(reference "R20.1")
+					(unit 1)
+				)
+				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c/ecd08cfa-ace2-4c26-a75b-4cdb3b0fd9bc"
+					(reference "R37")
 					(unit 1)
 				)
 			)

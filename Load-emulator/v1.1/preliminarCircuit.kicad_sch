@@ -11,256 +11,6 @@
 		(comment 3 "Theo M. A. de Vasconcellos <Theomatiasav@gmail.com>")
 	)
 	(lib_symbols
-		(symbol "53261-0371:53261-0371"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "P"
-				(at 3.81 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "53261-0371"
-				(at 6.096 5.842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" "53261-0371:MOLEX_53261-0371"
-				(at 1.778 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Molex"
-				(at -3.81 -8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-				(at 4.064 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at -10.922 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at -13.97 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-				(at 4.064 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-				(at 4.064 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "53261-0371"
-				(at 26.67 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at -6.35 -10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "MOLEX"
-				(at -5.08 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "53261-0371_0_0"
-				(rectangle
-					(start -3.81 5.08)
-					(end 3.81 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.762)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -2.54 180)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "53261-0371_1_0"
-				(pin passive line
-					(at 8.89 2.54 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "532610471_1"
 			(pin_names
 				(offset 0)
@@ -1270,7 +1020,7 @@
 		)
 		(uuid ee40e66d-a1a4-4369-b681-3ad1d4f0c63a)
 	)
-	(text "Channel 3 - 2A (3V3_EPS_Beacon)"
+	(text "Channel 6 - 2A (3V3_EPS_Beacon)"
 		(exclude_from_sim no)
 		(at 131.064 81.026 0)
 		(effects
@@ -1281,18 +1031,7 @@
 		)
 		(uuid "110c9f20-5771-46e9-aa58-57a5e7d229e6")
 	)
-	(text "Channel 1 - 3V3_OBDH (3V3/1A)\nChannel 2 - 3V3_Deployment_ANT (3V3/2A)\nChannel 3 - 3V3_EPS_Beacon (3V3/2A)\nChannel 4 - 5V_Payload (5V/3A)\nChannel 5 - 6V_Radio_1 (6V/5A)\nChannel 6 - 5V_Radio_0 (5V/5A)\nChannel 7 - VBus (7.4V/0.592A)\nChannel 8 - GND (ADICIONAR)"
-		(exclude_from_sim no)
-		(at 17.272 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1fc0ca81-ef07-4470-9cf8-f438099b5c59")
-	)
-	(text "Channel 7 - 0.592A (VBus)"
+	(text "Channel 3 - 0.592A (VBus)"
 		(exclude_from_sim no)
 		(at 202.184 125.476 0)
 		(effects
@@ -1303,7 +1042,7 @@
 		)
 		(uuid "26c8267f-3d8d-4af1-902a-96315e1083ca")
 	)
-	(text "Channel 5 - 5A (6V_Radio_1)"
+	(text "Channel 2 - 5A (6V_Radio_1)"
 		(exclude_from_sim no)
 		(at 202.184 18.034 0)
 		(effects
@@ -1314,7 +1053,18 @@
 		)
 		(uuid "50596bfa-884a-49ae-a7d0-e2b236ebf763")
 	)
-	(text "Channel 2 - 2A (3V3_Deployment_Ant)\n"
+	(text "Channel 1 - 5V_Radio_0 (5V/3A)\nChannel 2 - 6V_Radio_1 (6V/3A)\nChannel 3 - VBus (7.4V/0,592A)\nChannel 4 - 3V3_OBDH (3V3/1A)\nChannel 5 - 3V3_Deployment_ANT (3V3/2A)\nChannel 6 - 3V3_EPS_Beacon (3V3/2A)\nChannel 7 - 5V_Payload (5V/3A)\nChannel 8 - GND"
+		(exclude_from_sim no)
+		(at 17.272 56.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86c8e967-193f-498f-8db5-a8c7ae923201")
+	)
+	(text "Channel 5 - 2A (3V3_Deployment_Ant)\n"
 		(exclude_from_sim no)
 		(at 150.114 50.038 0)
 		(effects
@@ -1323,6 +1073,17 @@
 			)
 		)
 		(uuid "8aa4bd92-b54b-471e-a0b7-99f27784b26a")
+	)
+	(text "Largura das Trilhas:\n\n1A -> 0,22mm\n2A -> 0,57mm\n3A -> 1mm"
+		(exclude_from_sim no)
+		(at 15.748 95.25 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "8d660cce-42f0-4125-8dc2-39cb0b961437")
 	)
 	(text "PICOBLADE COM 8 CANAIS\n			"
 		(exclude_from_sim no)
@@ -1347,7 +1108,7 @@
 		)
 		(uuid "9ab35e93-2936-4b71-8e3e-2a238333b908")
 	)
-	(text "Channel 6 - 5A (5V_Radio_0)"
+	(text "Channel 1 - 5A (5V_Radio_0)"
 		(exclude_from_sim no)
 		(at 202.692 72.136 0)
 		(effects
@@ -1358,7 +1119,7 @@
 		)
 		(uuid "d67c8f5f-04cf-4af5-8f99-548e88e2b2a3")
 	)
-	(text "Channel 4 - 3A (5V_Payload)"
+	(text "Channel 7 - 3A (5V_Payload)"
 		(exclude_from_sim no)
 		(at 120.904 110.744 0)
 		(effects
@@ -1369,7 +1130,7 @@
 		)
 		(uuid "d9c3b5cb-45e7-44af-8d3c-1ee5ad5fe114")
 	)
-	(text "Channel 1 - 1A (3V3_OBDH)"
+	(text "Channel 4 - 1A (3V3_OBDH)"
 		(exclude_from_sim no)
 		(at 131.318 18.288 0)
 		(effects
@@ -1379,16 +1140,6 @@
 			(justify left)
 		)
 		(uuid "da73c296-abee-44a3-9dfe-9e1486d36111")
-	)
-	(text "Obs: VBus -> 7.4V"
-		(exclude_from_sim no)
-		(at 37.592 131.572 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dd548df7-ccd7-40f3-b985-89b67608bccc")
 	)
 	(text "Ver se realmente\né para ser 1A ou\n0.592A"
 		(exclude_from_sim no)
@@ -1400,29 +1151,9 @@
 		)
 		(uuid "f2664538-6fe7-46f7-81b4-371df89ca038")
 	)
-	(text_box "PicoBlades 3 PIN (1A each PIN)\nTo be connected to EPS/REPS"
-		(exclude_from_sim no)
-		(at 14.478 71.882 0)
-		(size 42.418 123.19)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "dccaf3e7-c2b4-445f-944e-81baa8065718")
-	)
 	(text_box "PICOLOCK 4 CANAIS\nPower Pins"
 		(exclude_from_sim no)
-		(at 66.294 14.732 0)
+		(at 92.456 17.018 0)
 		(size 31.496 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1774,7 +1505,7 @@
 		)
 		(uuid "073f48e2-716f-4c4b-8ca7-b6b1a52222c9")
 	)
-	(label "Channel 1"
+	(label "Channel 7"
 		(at 27.94 40.64 180)
 		(effects
 			(font
@@ -1784,7 +1515,7 @@
 		)
 		(uuid "1addfccd-36ed-4a34-8e7f-6c80a3c8ccde")
 	)
-	(label "Channel 3"
+	(label "Channel 6"
 		(at 140.97 91.44 180)
 		(effects
 			(font
@@ -1794,7 +1525,7 @@
 		)
 		(uuid "22d09d05-08a9-43a5-92f0-019b7f30bbdf")
 	)
-	(label "Channel 6"
+	(label "Channel 2"
 		(at 27.94 27.94 180)
 		(effects
 			(font
@@ -1804,7 +1535,7 @@
 		)
 		(uuid "5a088f98-d6c1-4ba1-b907-9dd56467f6ce")
 	)
-	(label "Channel 3"
+	(label "Channel 5"
 		(at 27.94 35.56 180)
 		(effects
 			(font
@@ -1814,7 +1545,7 @@
 		)
 		(uuid "5fb19b42-b098-46da-ab7b-a8bf792246b2")
 	)
-	(label "Channel 5"
+	(label "Channel 2"
 		(at 214.63 39.37 180)
 		(effects
 			(font
@@ -1834,7 +1565,7 @@
 		)
 		(uuid "65143924-f730-4a6b-9df7-0eba5852b7c9")
 	)
-	(label "Channel 4"
+	(label "Channel 7"
 		(at 132.08 128.27 180)
 		(effects
 			(font
@@ -1844,7 +1575,7 @@
 		)
 		(uuid "6ae87b8c-03a9-4737-9729-37d6453dd787")
 	)
-	(label "Channel 6"
+	(label "Channel 1"
 		(at 213.36 93.98 180)
 		(effects
 			(font
@@ -1854,7 +1585,7 @@
 		)
 		(uuid "7cb0136a-7d0f-41ee-a886-d93d988ed4a0")
 	)
-	(label "Channel 7"
+	(label "Channel 3"
 		(at 213.36 134.62 180)
 		(effects
 			(font
@@ -1864,7 +1595,7 @@
 		)
 		(uuid "99149933-92c7-4ac6-836f-b44ccd86f81c")
 	)
-	(label "Channel 1"
+	(label "Channel 4"
 		(at 142.24 27.94 180)
 		(effects
 			(font
@@ -1874,7 +1605,7 @@
 		)
 		(uuid "a369cd72-37f5-4555-b62b-477d02462239")
 	)
-	(label "Channel 2"
+	(label "Channel 6"
 		(at 27.94 38.1 180)
 		(effects
 			(font
@@ -1884,7 +1615,7 @@
 		)
 		(uuid "c1720dae-2383-4407-bf18-51ff959e17a2")
 	)
-	(label "Channel 2"
+	(label "Channel 5"
 		(at 142.24 59.69 180)
 		(effects
 			(font
@@ -1894,7 +1625,7 @@
 		)
 		(uuid "c5d2acff-c9f1-4a19-a124-4fe8aa425a08")
 	)
-	(label "Channel 7"
+	(label "Channel 1"
 		(at 27.94 25.4 180)
 		(effects
 			(font
@@ -1904,7 +1635,7 @@
 		)
 		(uuid "cc436636-9de4-4abc-9885-8e3bb2511eb9")
 	)
-	(label "Channel 5"
+	(label "Channel 3"
 		(at 27.94 30.48 180)
 		(effects
 			(font
@@ -1913,28 +1644,6 @@
 			(justify right bottom)
 		)
 		(uuid "ec7610d7-93e5-4c68-8eb3-6baac6b3663b")
-	)
-	(global_label "5V_Radio_0"
-		(shape input)
-		(at 30.48 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "055ed079-fa0b-41bd-8be3-d10577ea70ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2298 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "-10V"
 		(shape input)
@@ -1954,28 +1663,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_EPS_Beacon"
-		(shape input)
-		(at 30.48 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0dbd779b-5671-4a0c-a41e-7f3b5198ab2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4307 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2046,72 +1733,6 @@
 			)
 		)
 	)
-	(global_label "3V3_OBDH"
-		(shape input)
-		(at 30.48 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "332429e5-a0a6-48d1-a3d9-e91a78eebce1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1414 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_Radio_0"
-		(shape input)
-		(at 30.48 154.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "44cd0381-0d96-4f1b-885e-a39ee725f70f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2298 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBus"
-		(shape input)
-		(at 30.48 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "492594e7-404a-4069-b41c-59158de534a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0009 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+10V"
 		(shape input)
 		(at 241.3 143.51 270)
@@ -2178,9 +1799,9 @@
 			)
 		)
 	)
-	(global_label "5V_Payload"
+	(global_label "-10V"
 		(shape input)
-		(at 30.48 187.96 0)
+		(at 82.55 24.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2188,9 +1809,9 @@
 			)
 			(justify left)
 		)
-		(uuid "57e642f5-46d8-4666-b2ac-613305370357")
+		(uuid "656fc51a-9805-42f8-a95d-32c5437162de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2297 187.96 0)
+			(at 90.6152 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,72 +1865,6 @@
 			)
 		)
 	)
-	(global_label "3V3_EPS_Beacon"
-		(shape input)
-		(at 30.48 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "721136b2-9f3e-471c-83a7-fd7934ad449f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4307 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_Deployment_ANT"
-		(shape input)
-		(at 30.48 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72a8a032-6d62-4fa3-92a2-2f72f9e887f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2407 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_Deployment_ANT"
-		(shape input)
-		(at 30.48 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7a9e6915-71b5-40e4-b3b8-4ea971dfe96a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2407 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V_Payload"
 		(shape input)
 		(at 184.15 129.54 0)
@@ -2332,29 +1887,7 @@
 			)
 		)
 	)
-	(global_label "5V_Payload"
-		(shape input)
-		(at 30.48 185.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8a5dcad1-75a9-4167-8598-dc9d480bc1e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2297 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-10V"
+	(global_label "+10V"
 		(shape input)
 		(at 82.5534 26.9877 0)
 		(fields_autoplaced yes)
@@ -2367,28 +1900,6 @@
 		(uuid "8eb9a41f-969e-48f2-b940-783ce7201de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.6186 26.9877 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBus"
-		(shape input)
-		(at 30.48 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9465fdbc-69fb-4f28-a286-6cc3387a3138")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0009 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,50 +1977,6 @@
 	)
 	(global_label "6V_Radio_1"
 		(shape input)
-		(at 30.48 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa06f409-d55a-4bca-9dbc-7552d0b07ff6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2298 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBus"
-		(shape input)
-		(at 30.48 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af0109b4-558a-47fa-87ea-035574096086")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0009 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "6V_Radio_1"
-		(shape input)
 		(at 264.16 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2574,72 +2041,6 @@
 			)
 		)
 	)
-	(global_label "3V3_OBDH"
-		(shape input)
-		(at 30.48 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b429eced-5887-4bcf-8c9c-06c1ed60712c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1414 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "6V_Radio_1"
-		(shape input)
-		(at 30.48 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6c52fa5-b8c2-453d-b363-bc61aeefcfdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2298 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "6V_Radio_1"
-		(shape input)
-		(at 30.48 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb57da5c-bd66-40ba-824d-e885cdc0ee8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2298 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+10V"
 		(shape input)
 		(at 247.65 36.83 270)
@@ -2675,72 +2076,6 @@
 		(uuid "bed6f62c-b9b1-48ab-a3e0-df4bda88b2c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.8114 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_Payload"
-		(shape input)
-		(at 30.48 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf83dd49-9229-42fb-b200-9b18c6797fe3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2297 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+10V"
-		(shape input)
-		(at 82.55 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c03e15bc-836c-4bf8-9b6c-c435c36dd8da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6152 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_Deployment_ANT"
-		(shape input)
-		(at 30.48 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c0fa2dbb-7d67-4520-b555-04a7ae53bb29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2407 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2818,28 +2153,6 @@
 	)
 	(global_label "3V3_EPS_Beacon"
 		(shape input)
-		(at 30.48 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c940d6e6-009a-4b3d-af4e-7d8712e03f90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4307 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3V3_EPS_Beacon"
-		(shape input)
 		(at 182.88 91.44 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2904,28 +2217,6 @@
 			)
 		)
 	)
-	(global_label "3V3_OBDH"
-		(shape input)
-		(at 30.48 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4df475d-2827-476b-9c97-2adfecffaaef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.1414 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "-10V"
 		(shape input)
 		(at 245.11 143.51 270)
@@ -2944,28 +2235,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_Radio_0"
-		(shape input)
-		(at 30.48 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef99a808-b035-4d67-9c37-5fba6b19d57e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.2298 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3011,167 +2280,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f384d4c-9475-4671-a061-9d0a95e68bd6")
-		(property "Reference" "P5"
-			(at 21.59 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.59 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 142.748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 17.78 163.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 161.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 165.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "526b7087-6468-4efb-883e-f5dbbb44199e")
-		)
-		(pin "3"
-			(uuid "530bff61-344f-40b4-a1ca-f908533f53c3")
-		)
-		(pin "1"
-			(uuid "6bec6f51-dbc8-4064-894b-5dad66d84e99")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P5")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3300,167 +2408,6 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a86f5d4-ed7b-4f4f-91ea-86c898fe914b")
-		(property "Reference" "P4"
-			(at 21.717 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.717 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 124.968 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 17.78 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 127.254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a870cdb1-cf2a-4941-b10b-d17701206ea8")
-		)
-		(pin "3"
-			(uuid "da4a1e28-2ea5-4dc5-b198-747696ff1aaf")
-		)
-		(pin "1"
-			(uuid "c6b4fb22-62bd-4f65-88a1-5e1714cba178")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -3663,73 +2610,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70556430-61f0-431a-aff2-abf5402cc99b")
-		(property "Reference" "#PWR073"
-			(at 88.9 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fd5d84d-2dbf-41ab-a62e-52ec1d6ddb60")
-		)
-		(instances
-			(project ""
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 142.24 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3860,167 +2740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8340679a-c37a-480b-a8b2-a85fff0aa519")
-		(property "Reference" "P7"
-			(at 21.59 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.59 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 175.768 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 17.78 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 194.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 178.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 183.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 198.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "99fdab1e-ec53-4425-b86c-91cb54373c07")
-		)
-		(pin "3"
-			(uuid "1d0a1315-1612-4a06-b809-ab141140532c")
-		)
-		(pin "1"
-			(uuid "3efad270-f3b2-4362-9952-8197132e787a")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 100.33 0)
 		(unit 1)
@@ -4080,167 +2799,6 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87cf9796-338c-4538-ab16-aed2d4dcce78")
-		(property "Reference" "P6"
-			(at 21.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.59 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 17.78 179.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 166.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 182.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5da7886-8f1a-4670-ac9b-1398ef480bd7")
-		)
-		(pin "3"
-			(uuid "be277466-1a28-45fd-8a92-18f72f061497")
-		)
-		(pin "1"
-			(uuid "b3a22401-a128-4062-b8a9-25279c2db005")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P6")
 					(unit 1)
 				)
 			)
@@ -4716,43 +3274,35 @@
 		)
 	)
 	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 87.63 0)
+		(lib_id "power:GND")
+		(at 82.55 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ab004185-9681-4266-91b0-2c6d5dcee532")
-		(property "Reference" "P1"
-			(at 21.717 77.47 0)
+		(uuid "af2400dc-c621-4ad3-b061-2b200485aeb6")
+		(property "Reference" "#PWR075"
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.717 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 75.438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 21.59 87.63 0)
+		(property "Value" "GND"
+			(at 86.36 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,8 +3310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 21.59 87.63 0)
+		(property "Datasheet" ""
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4769,109 +3319,22 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 17.78 96.012 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 82.804 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4caa813-221f-4438-86b0-911d734f20ff")
-		)
-		(pin "3"
-			(uuid "8be6d2aa-b860-4c03-bffd-de97cfcbfee7")
 		)
 		(pin "1"
-			(uuid "30a3392b-000d-4b1a-9490-d138b97da947")
+			(uuid "0d613b39-5030-46aa-b356-182b76fa76b8")
 		)
 		(instances
-			(project ""
+			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P1")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -5123,167 +3586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7355612-49b4-4f94-8acb-c8b34eb2a46f")
-		(property "Reference" "P3"
-			(at 21.59 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.59 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 107.188 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 17.78 127.762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 125.476 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "079e3ab1-f4e3-460d-8d34-888797ccb488")
-		)
-		(pin "3"
-			(uuid "269c1176-1989-457f-b920-f2480ba491ec")
-		)
-		(pin "1"
-			(uuid "1ddd4fa1-16d6-4345-969f-e9e0beca4587")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 256.54 59.69 0)
 		(unit 1)
@@ -5343,167 +3645,6 @@
 			(project "Load-emulator"
 				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "53261-0371:53261-0371")
-		(at 21.59 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0cc3e24-0233-41c0-bd8a-037d85338f25")
-		(property "Reference" "P2"
-			(at 21.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "53261-0371"
-			(at 21.59 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:MOLEX_53261-0371"
-			(at 23.368 90.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 21.59 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 17.78 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ".049 pitch picoblade header, smt, ra 3 circuits | Molex Incorporated 53261-0371"
-			(at 25.654 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 10.668 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 7.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=eda"
-			(at 25.654 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/53261-0371/Molex/view-part/?ref=snap"
-			(at 25.654 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "53261-0371"
-			(at 48.26 98.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 15.24 113.538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "MOLEX"
-			(at 16.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bdc6afc0-2d17-43b0-9f38-60b60ac10984")
-		)
-		(pin "3"
-			(uuid "98a49f6c-29d2-42c9-9e0c-61d4717095a7")
-		)
-		(pin "1"
-			(uuid "b5bb3c94-711c-4794-b7ee-db7e723e46a6")
-		)
-		(instances
-			(project "Load-emulator"
-				(path "/9054bfd2-3cc0-4c96-aa71-abdb09b76dc7/a12c045f-372a-4c5b-93d1-0c234b5f9c5c"
-					(reference "P2")
 					(unit 1)
 				)
 			)
