@@ -7,4 +7,5 @@
   (lib (name "532610271")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/532610271.kicad_sym")(options "")(descr ""))
   (lib (name "532610671")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/532610671.kicad_sym")(options "")(descr ""))
   (lib (name "533980871")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/533980871.kicad_sym")(options "")(descr ""))
+  (lib (name "mountinghole")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/mountinghole.kicad_sym")(options "")(descr ""))
 )
