@@ -1053,7 +1053,7 @@
 		)
 		(uuid "50596bfa-884a-49ae-a7d0-e2b236ebf763")
 	)
-	(text "Channel 1 - 5V_Radio_0 (5V/3A)\nChannel 2 - 6V_Radio_1 (6V/3A)\nChannel 3 - VBus (7.4V/0,592A)\nChannel 4 - 3V3_OBDH (3V3/1A)\nChannel 5 - 3V3_Deployment_ANT (3V3/2A)\nChannel 6 - 3V3_EPS_Beacon (3V3/2A)\nChannel 7 - 5V_Payload (5V/3A)\nChannel 8 - GND"
+	(text "Channel 1 - 6V_Radio_1 (6V/3A)\nChannel 2 - 5V_Radio_0 (5V/3A)\nChannel 3 - VBus (7.4V/0,592A)\nChannel 4 - 3V3_OBDH (3V3/1A)\nChannel 5 - 3V3_Deployment_ANT (3V3/2A)\nChannel 6 - 3V3_EPS_Beacon (3V3/2A)\nChannel 7 - 5V_Payload (5V/3A)\nChannel 8 - GND"
 		(exclude_from_sim no)
 		(at 17.272 56.896 0)
 		(effects
@@ -1545,7 +1545,7 @@
 		)
 		(uuid "5fb19b42-b098-46da-ab7b-a8bf792246b2")
 	)
-	(label "Channel 2"
+	(label "Channel 1"
 		(at 214.63 39.37 180)
 		(effects
 			(font
@@ -1575,7 +1575,7 @@
 		)
 		(uuid "6ae87b8c-03a9-4737-9729-37d6453dd787")
 	)
-	(label "Channel 1"
+	(label "Channel 2"
 		(at 213.36 93.98 180)
 		(effects
 			(font
