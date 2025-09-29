@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/Footprints")(options "")(descr ""))
   (lib (name "LM318M")(type "KiCad")(uri "C:/Users/theom/Downloads/LM318M")(options "")(descr "")(disabled))
+  (lib (name "IFX-PG-TO220-3-904")(type "Altium Designer")(uri "${KIPRJMOD}/project-lib/footprints/IFX-PG-TO220-3-904.PcbLib")(options "")(descr ""))
 )
