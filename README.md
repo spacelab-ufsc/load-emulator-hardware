@@ -1,15 +1,18 @@
+<!--
 # load-emulator-hardware
+
 <h1 align="center">
 LOAD EMULATOR HARDWARE  
   <br>
-#load-emulator-hardware
-
+ 
+#load-emulator-hardware 
+-->
 <h1 align="center">
-LOAD EMULATOR HARDWARE
+LOAD EMULATOR HARDWARE 
 </h1>
 
 <p align="center">
-    <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/status-em_teste-yellow"></a>
+    <a href="#"><img alt="Static Badge" src="https://img.shields.io/badge/status-[2.0]_in%20development-red?style=for-the-badge"></a>
 </p>
 
 
@@ -36,11 +39,11 @@ LOAD EMULATOR HARDWARE
 
 ## Overview
 
-O **Load Emulator Hardware** é um projeto desenvolvido com o objetivo de **simular cargas elétricas** para a realização de testes em módulos de nanosatélites. Ele permite a avaliação do comportamento de sistemas como o EPS (Electrical Power System) em diferentes condições de consumo, sem a necessidade de cargas reais.
+The **Load Emulator Hardware** is a project developed with the aim of **simulating electrical loads** for testing nanosatellite modules. It allows for the evaluation of the behavior of systems such as EPS (Electrical Power System) and RE²PS (Reliability Enchanced Eletrical Power System) under different power consumption conditions, without the need for real loads.
 
-O circuito foi desenvolvido no **KiCad** e emprega **amplificadores operacionais LM318**, **transistores** e **resistores de potência** para simular a carga desejada. O que permite flexibilidade e precisão nos testes de bancada.
+The circuit was designed in **KiCad** and uses **LT1492 operational amplifiers**, **transistors**, and **power resistors** to simulate the desired load. This provides flexibility and precision for bench testing.
 
-Este projeto foi pensado especialmente para **testes em solo** dos satélites FloripaSat-RE , do SpaceLab. Visando as demandas de carga desejadas. 
+This project was specifically designed for **ground tests** of the FloripaSat-RE satellites from SpaceLab, targeting the required load demands.
 
 <p align="center">
     <img src="figs/load_emulator_render.png" alt="3D render of Load Emulator PCB">
@@ -54,22 +57,22 @@ Este projeto foi pensado especialmente para **testes em solo** dos satélites Fl
 
 ## Repository Organization
 
-- `dev/`: arquivos-fonte do projeto de hardware (esquemáticos, layout e simulações)
-- `main/`: documentação e versões consolidadas do hardware
+- `dev/`: Hardware project source files (schematics, PCB layout, and simulations)
+- `main/`: Documentation and consolidated hardware releases
 
 ## License
 
-_Em definição._  
+_In definition._  
 
 ## Notes
 
-Projeto desenvolvido por membros do [SpaceLab - UFSC](https://spacelab.ufsc.br), com base nas necessidades dos satélites FloripaSat.
+Project developed by members of [SpaceLab - UFSC](https://spacelab.ufsc.br), based on the requirements of the XX satellites
 
 ## References
 
-- FloripaSat-1 e FloripaSat-2 – SpaceLab / UFSC  
-- Desenvolvido por: **Fernanda Paiva de Morais** e **Theo M. Vasconcellos**  
-- Revisão por: **João C. E. Bacelos**
+- FloripaSat-1 and FloripaSat-2 | SpaceLab - UFSC  
+- Developed by: **Fernanda Paiva de Morais**, **Theo M. Vasconcellos** and **João V. Perin** 
+- Revised by: **João C. E. Bacelos**
 
 ---
 
