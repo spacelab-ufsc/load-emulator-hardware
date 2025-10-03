@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -191,17 +191,13 @@
       ],
       "track_widths": [
         0.0,
-        0.1016,
-        0.127,
-        0.1524,
-        0.2032,
+        0.15,
         0.25,
-        0.254,
-        0.3048,
-        0.508,
-        0.57,
-        0.762,
-        1.0
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -235,20 +231,20 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4572,
-          "drill": 0.254
-        },
-        {
           "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.61,
           "drill": 0.3
         },
         {
           "diameter": 0.8,
           "drill": 0.4
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -800,16 +796,32 @@
       "Root"
     ],
     [
-      "d0356bde-4e0e-455a-915a-a60692078efb",
-      "Low-Pass_Filter_1"
-    ],
-    [
-      "f7db61d9-cf73-4f9a-a387-a9607056a254",
-      "Current Sink 500mA"
-    ],
-    [
       "c737cdd2-a290-45a4-acfa-008b13ea8e3e",
-      "Filter_and_CurrentSink_6x500mA"
+      "Filter_and_CurrentSink_1x3A"
+    ],
+    [
+      "1667014c-570e-4bd1-939d-c8775e14c4ea",
+      "Filter_and_CurrentSink_1x3A_1"
+    ],
+    [
+      "9e0f82d8-75bf-4c42-83da-983ef25d4eec",
+      "Filter_and_CurrentSink_1x3A_2"
+    ],
+    [
+      "042ef884-1eb8-4f1c-8d09-c15922423267",
+      "Filter_and_CurrentSink_2x1A"
+    ],
+    [
+      "61e44cf2-f303-43b1-8e07-d01f77e35687",
+      "Filter_and_CurrentSink_2x1A1"
+    ],
+    [
+      "0890c395-555d-44d6-bf2f-efcf72e0ea4f",
+      "Filter_and_CurrentSink_1x1A"
+    ],
+    [
+      "73794f67-ecdc-4ab1-991a-7f62161b7c6b",
+      "Filter_and_CurrentSink_1x1A1"
     ]
   ],
   "text_variables": {}
