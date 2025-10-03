@@ -12,4 +12,6 @@
   (lib (name "TSM60NC1R5CP_ROG")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/TSM60NC1R5CP_ROG.kicad_sym")(options "")(descr ""))
   (lib (name "RD3L08DBLHRB")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/RD3L08DBLHRB.kicad_sym")(options "")(descr ""))
   (lib (name "IRF100B201")(type "Altium")(uri "${KIPRJMOD}/project-lib/schematic/IRF100B201.SchLib")(options "")(descr ""))
+  (lib (name "530002B02500G")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/530002B02500G.kicad_sym")(options "")(descr ""))
+  (lib (name "573100D00000G")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbol/573100D00000G.kicad_sym")(options "")(descr ""))
 )

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Load Emulator")
-		(date "2025-09-28")
+		(date "2025-10-03")
 		(rev "v2.0 - WIP")
 		(company "Spacelab")
 		(comment 1 "Theo M. A. de Vasconcellos <Theomatiasav@gmail.com>")
@@ -2639,7 +2639,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 121.285 20.32) (xy 203.835 20.32) (xy 203.835 121.92) (xy 121.285 121.92)
+				(xy 12.7 130.81) (xy 12.7 102.87) (xy 57.15 102.87) (xy 57.15 130.81)
 			)
 			(stroke
 				(width 0.25)
@@ -2649,7 +2649,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0308c54f-8103-4424-9213-d3b8b49603fc)
+			(uuid 1f3c899c-a75d-4831-be1e-23a00e359d40)
 		)
 	)
 	(rule_area
@@ -2665,87 +2665,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 04706055-f100-4483-b84d-d28967a5e7a9)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.7 130.81) (xy 12.7 102.87) (xy 57.15 102.87) (xy 57.15 130.81)
-			)
-			(stroke
-				(width 0.25)
-				(type dash)
-				(color 0 0 0 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 2f0bb381-d4ff-44a1-b5bd-4ce7a5ad3772)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.7 165.4174) (xy 57.15 165.4174) (xy 57.15 197.8024) (xy 12.7 197.8024)
-			)
-			(stroke
-				(width 0.25)
-				(type dash)
-				(color 0 0 0 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 3508099b-4848-4782-bc78-ea90c71a6042)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.7 132.3975) (xy 57.15 132.3975) (xy 57.15 164.7825) (xy 12.7 164.7825)
-			)
-			(stroke
-				(width 0.25)
-				(type dash)
-				(color 0 0 0 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 4c9eb5e2-a2ef-4d76-b416-93980175b3fe)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 221.615 45.72) (xy 268.605 45.72) (xy 268.605 129.54) (xy 221.615 129.54)
-			)
-			(stroke
-				(width 0.25)
-				(type dash)
-				(color 255 0 0 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6f0233fa-be1e-4e36-8bd2-506a6f9eaa13)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 95.885 20.32) (xy 95.885 63.5) (xy 20.955 63.5) (xy 20.955 20.32)
-			)
-			(stroke
-				(width 0.25)
-				(type dash)
-				(color 0 0 0 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 98024510-6b8f-4a09-b134-7accba012f47)
+			(uuid 4f8caf79-a5e1-4fdd-bad8-2b654cb3f815)
 		)
 	)
 	(rule_area
@@ -2761,7 +2681,87 @@
 			(fill
 				(type none)
 			)
-			(uuid bf2c4ac4-ddc7-4928-b138-d41ab541e680)
+			(uuid 8068794c-a8ab-49e3-9d55-47391a4c42f1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 95.885 20.32) (xy 95.885 63.5) (xy 20.955 63.5) (xy 20.955 20.32)
+			)
+			(stroke
+				(width 0.25)
+				(type dash)
+				(color 0 0 0 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 88d797ac-cbf4-4e04-911f-c75b7c207b77)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.285 20.32) (xy 203.835 20.32) (xy 203.835 121.92) (xy 121.285 121.92)
+			)
+			(stroke
+				(width 0.25)
+				(type dash)
+				(color 0 0 0 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8d2e9aea-11c1-424e-9c1f-7101d0fdd562)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 165.4174) (xy 57.15 165.4174) (xy 57.15 197.8024) (xy 12.7 197.8024)
+			)
+			(stroke
+				(width 0.25)
+				(type dash)
+				(color 0 0 0 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 94851c00-6838-4ee1-a15c-b3f54af4c98a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.7 132.3975) (xy 57.15 132.3975) (xy 57.15 164.7825) (xy 12.7 164.7825)
+			)
+			(stroke
+				(width 0.25)
+				(type dash)
+				(color 0 0 0 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid d458e111-1077-478c-9747-1c6b3166ac43)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 221.615 45.72) (xy 268.605 45.72) (xy 268.605 129.54) (xy 221.615 129.54)
+			)
+			(stroke
+				(width 0.25)
+				(type dash)
+				(color 255 0 0 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e2b4a96d-c674-4433-8850-4e1e6cae8952)
 		)
 	)
 	(symbol
@@ -2792,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SO-8_S_LIT"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 185.42 0)
 			(effects
 				(font
@@ -3237,7 +3237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 177.8 0)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SO-8_S_LIT"
 			(at 68.58 149.86 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.6 177.8 0)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SO-8_S_LIT"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -4881,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SO-8_S_LIT"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SO-8_S_LIT"
 			(at 118.11 184.15 0)
 			(effects
 				(font
@@ -5406,7 +5406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SO-8_S_LIT"
 			(at 157.48 82.55 0)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 185.42 0)
 			(effects
 				(font
