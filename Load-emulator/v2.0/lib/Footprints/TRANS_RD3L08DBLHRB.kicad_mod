@@ -296,4 +296,15 @@
 		(uuid "43053dc9-d374-494c-ae87-03b939e0b2cb")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/Modelos 3D/TSM60NC1R5CP ROG--3DModel-STEP-554148.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
