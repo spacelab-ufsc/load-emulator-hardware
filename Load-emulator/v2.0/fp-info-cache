@@ -1,4 +1,4 @@
-26758858296974933
+26758680005808916
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2449,13 +2449,6 @@ switch SPDT
 0
 5
 3
-Button_Switch_THT
-SW_TH_Tactile_Omron_B3F-10xx
-SW_TH_Tactile_Omron_B3F-10xx_https://www.omron.com/ecb/products/pdf/en-b3f.pdf
-Omron B3F-10xx
-0
-4
-2
 Button_Switch_THT
 SW_TH_Tactile_Omron_B3F-100x
 Tactile switch, 6x6 mm, H4.3 mm, 6.5 mm pitch, https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf
@@ -53970,13 +53963,6 @@ HDMI Contact Technology Type A
 23
 20
 Connector_Video
-HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
-HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
-HDMI Contact Technology Type A
-0
-23
-20
-Connector_Video
 HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
 HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
 hdmi type a
@@ -53991,13 +53977,6 @@ HDMI Molex Type A
 23
 20
 Connector_Video
-HDMI_Micro-D_Molex_46765-0x01
-HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle smd
-0
-23
-20
-Connector_Video
 HDMI_Micro-D_Molex_46765-0xxx
 HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
 hdmi micro type d right angle smd
@@ -54005,23 +53984,9 @@ hdmi micro type d right angle smd
 23
 20
 Connector_Video
-HDMI_Micro-D_Molex_46765-1x01
-HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht
-0
-23
-20
-Connector_Video
 HDMI_Micro-D_Molex_46765-1xxx
 HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
 hdmi micro type d right angle tht
-0
-23
-20
-Connector_Video
-HDMI_Micro-D_Molex_46765-2x0x
-HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
-hdmi micro type d right angle tht smd hybrid 
 0
 23
 20
@@ -61481,13 +61446,6 @@ fiducial
 1
 0
 Fiducial
-Fiducial_Cross_0.5mm_Mask2mm
-Circular Fiducial, Cross variant, 0.5mm bare copper, 2mm soldermask opening
-fiducial
-0
-1
-0
-Fiducial
 Fiducial_Cross_1.5mm_Mask2mm
 Fiducial, cross variant, 1.5mm bare copper, 2mm soldermask opening
 fiducial
@@ -66766,13 +66724,6 @@ wirewound ferrite power
 2
 2
 Inductor_SMD
-L_Vishay_IHSM-7382
-Inductor, Vishay, Vishay_IHSM-7382, http://www.vishay.com/docs/34021/ihsm7832.pdf, 21.3mmx8.1mm
-inductor vishay icsm smd
-0
-2
-2
-Inductor_SMD
 L_Vishay_IHSM-7832
 Inductor, Vishay, IHSM-7832, 21.34x8.13x7.24mm, (https://www.vishay.com/docs/34021/ihsm7832.pdf), generated with kicad-footprint-generator gen_inductor.py
 wirewound ferrite power
@@ -69643,13 +69594,6 @@ LED Cree XHP50
 15
 3
 LED_SMD
-LED_Cree-XHP50_6V
-Cree XHP50, 6V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED Cree XHP50
-0
-15
-3
-LED_SMD
 LED_Cree-XHP50_6V_HighDensity
 Cree XHP50, 6V, high density, https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
 LED Cree XHP50
@@ -69660,13 +69604,6 @@ LED_SMD
 LED_Cree-XHP50_6V_HighIntensity
 Cree XHP50, 6V, high intensity, https://downloads.cree-led.com/files/ds/x/XLamp-XHP50.3.pdf
 LED Cree XHP50
-0
-15
-3
-LED_SMD
-LED_Cree-XHP50_12V
-Cree XHP50, 12V footprint, http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP50.pdf
-LED XHP50 Cree
 0
 15
 3
@@ -85575,29 +85512,8 @@ EQFP QFP
 244
 145
 Package_QFP
-HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm
-64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [HTQFP] thermal pad
-HTQFP-64 Pitch 0.5 
-0
-69
-65
-Package_QFP
-HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias
-64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [HTQFP] thermal pad
-HTQFP-64 Pitch 0.5 
-0
-135
-65
-Package_QFP
 Hitachi_FP80B_PQFP-80_14x20mm_P0.8mm
 Hitachi FP80B PQFP, 80 Pin (Hitachi FP-80B, 2.70mm body thickness, https://www.icbase.com/pdf/HTH/HTH14270106.pdf#page=9, https://bitsavers.trailing-edge.com/components/hitachi/_dataBooks/1994_M24T026_Hitachi_LCD_Controller_Driver_LSI_Data_Book.pdf#page=28), generated with kicad-footprint-generator ipc_gullwing_generator.py
-Hitachi PQFP QFP Hitachi_FP-80B
-0
-80
-80
-Package_QFP
-Hitachi_PQFP-80_14x20mm_P0.8mm
-Hitachi  PQFP, 80 Pin (Hitachi FP-80B, 2.70mm body thickness, https://www.icbase.com/pdf/HTH/HTH14270106.pdf#page=9, https://bitsavers.trailing-edge.com/components/hitachi/_dataBooks/1994_M24T026_Hitachi_LCD_Controller_Driver_LSI_Data_Book.pdf#page=28), generated with kicad-footprint-generator ipc_gullwing_generator.py
 Hitachi PQFP QFP Hitachi_FP-80B
 0
 80
@@ -86070,13 +85986,6 @@ TQFP, 64 Pin (https://www.esstech.com/wp-content/uploads/2022/09/ES9028PRO-Datas
 TQFP QFP ESS-eTQFP-64
 0
 107
-65
-Package_QFP
-TQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm
-64-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1 mm Body, 2.00 mm Footprint [TQFP] thermal pad
-QFP 0.5 
-0
-90
 65
 Package_QFP
 TQFP-64_7x7mm_P0.4mm
@@ -86827,20 +86736,6 @@ HVSSOP SO
 0
 18
 9
-Package_SO
-HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm
-HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HVSSOP SO
-0
-15
-11
-Package_SO
-HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias
-HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-HVSSOP SO
-0
-20
-11
 Package_SO
 HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm
 HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -87814,13 +87709,6 @@ SOP SO
 0
 8
 8
-Package_SO
-SOP-16_3.9x9.9mm_P1.27mm
-SOP, 16 Pin (https://www.diodes.com/assets/Datasheets/PAM8403.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOP SO
-0
-16
-16
 Package_SO
 SOP-16_4.4x10.4mm_P1.27mm
 SOP, 16 Pin (https://www.vishay.com/docs/83513/tcmd1000.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -92574,6 +92462,223 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panelization
+BreakLine_1h_D0.5mm_P0.85mm
+Break line, 1 hole/ 0.85mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_2h_D0.5mm_P0.85mm
+Break line, 2 holes/ 1.7mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_2h_D0.5mm_P1.7mm
+Break line, 3 holes/ 2.5mm, room for traces
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_3h_D0.5mm_P0.85mm
+Break line, 3 holes/ 2.5mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_3h_D0.5mm_P1.7mm
+Break line, 3 holes/ 4.2mm, room for traces
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_5h_D0.5mm_P0.85mm
+Break line, 5 holes/ 4.2mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_7h_D0.5mm_P0.85mm
+Break line, 7 holes/ 6mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_9h_D0.5mm_P0.85mm
+Break line, 9 holes/ 7.6mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+BreakLine_11h_D0.5mm_P0.85mm
+Break line, 11 holes/ 9.3mm
+mousebite break line edge stamp
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x2.0mm_0h
+Break slot 2mm part, small: L=2mm, no holes: outer tab
+mousebite stamp slot break tab 2mm edge
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace
+Break slot 2mm part, small: L=2mm, holes inset: recommended (no post-process), room for traces
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x2.0mm_inset_D0.5mm_P0.85mm_5h
+Break slot 2mm part, small: L=2mm, holes inset: recommended (no post-process)
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x2.0mm_outset_D0.5mm_P0.85mm_2h_Trace
+Break slot 2mm part, small: L=2mm, holes outset (sand flat with edge), room for traces
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h
+Break slot 2mm part, small: L=2mm, holes outset (sand flat with edge)
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x4.5mm_0h
+Break slot 2mm part, standard: L=4.5mm, no holes: outer tab
+mousebite stamp slot break tab 2mm edge
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x4.5mm_inset_D0.5mm_P0.85mm_5h_Trace
+Break slot 2mm part, standard: L=4.5mm, holes inset: recommended (no post-process), room for traces
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x4.5mm_inset_D0.5mm_P0.85mm_7h
+Break slot 2mm part, standard: L=4.5mm, holes inset: recommended (no post-process)
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x4.5mm_outset_D0.5mm_P0.85mm_5h_Trace
+Break slot 2mm part, standard: L=4.5mm, holes outset (sand flat with edge), room for traces
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Part_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h
+Break slot 2mm part, standard: L=4.5mm, holes outset (sand flat with edge)
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Slot-Jumper_0201
+Jumper for Mouse slot. SMD 0201 (0603 Metric)
+mousebite resistor jumper
+0
+2
+2
+Panelization
+MouseBite-Slot-Jumper_01005
+Jumper for Mouse slot. SMD 01005 (0402 Metric)
+mousebite resistor jumper
+0
+2
+2
+Panelization
+MouseBite-Slot_2.0x2.0mm_inset_D0.5mm_P0.85mm_4h_Trace
+Break slot 2mm, small: L=2mm, holes inset: recommended (no post-process), room for traces
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x2.0mm_inset_D0.5mm_P0.85mm_5h
+Break slot 2mm, small: L=2mm, holes inset: recommended (no post-process)
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_2h_Trace
+Break slot 2mm, small: L=2mm, holes outset (sand flat with edge), room for traces
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h
+Break slot 2mm, small: L=2mm, holes outset (sand flat with edge)
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x4.5mm_inset_D0.5mm_P0.85mm_5h_Trace
+Break slot 2mm, standard: L=4.5mm, holes inset: recommended (no post-process), room for traces
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x4.5mm_inset_D0.5mm_P0.85mm_7h
+Break slot 2mm, standard: L=4.5mm, holes inset: recommended (no post-process)
+mousebite stamp slot break tab 2mm edge inset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_5h_Trace
+Break slot 2mm, standard: L=4.5mm, holes outset (sand flat with edge), room for traces
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.0x4.5mm_outset_D0.5mm_P0.85mm_7h
+Break slot 2mm, standard: L=4.5mm, holes outset (sand flat with edge)
+mousebite stamp slot break tab 2mm edge outset
+0
+0
+0
+Panelization
+MouseBite-Slot_2.54x2.54mm_on-edge_D0.5mm_P0.85mm_4h_Trace
+Break slot 2.54mm, small: L=2.54mm, holes on-edge: acceptable, room for traces
+mousebite stamp slot break tab 2mm edge on-edge
+0
+0
+0
+Panelization
+MouseBite-Slot_2.54x5.08mm_on-edge_D0.5mm_P0.85mm_5h_Trace
+Break slot 2.54mm, standard: L=5.08mm, holes on-edge: acceptable, room for traces
+mousebite stamp slot break tab 2mm edge on-edge
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -97720,26 +97825,12 @@ THT DIP DIL ZIF 25.4mm 1000mil Socket
 40
 40
 Socket
-DIP_Socket-14_W4.3_W5.08_W7.62_W10.16_W10.9_3M_214-3339-00-0602J
-3M 14-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 7.62mm 300mil Socket
-0
-14
-14
-Socket
 DIP_Socket-14_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_214-3339-00-0602J
 3M 14-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 7.62mm 300mil Socket
 0
 14
 14
-Socket
-DIP_Socket-16_W4.3_W5.08_W7.62_W10.16_W10.9_3M_216-3340-00-0602J
-3M 16-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 7.62mm 300mil Socket
-0
-16
-16
 Socket
 DIP_Socket-16_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_216-3340-00-0602J
 3M 16-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
@@ -97748,26 +97839,12 @@ THT DIP DIL ZIF 7.62mm 300mil Socket
 16
 16
 Socket
-DIP_Socket-18_W4.3_W5.08_W7.62_W10.16_W10.9_3M_218-3341-00-0602J
-3M 18-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 7.62mm 300mil Socket
-0
-18
-18
-Socket
 DIP_Socket-18_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_218-3341-00-0602J
 3M 18-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 7.62mm 300mil Socket
 0
 18
 18
-Socket
-DIP_Socket-20_W4.3_W5.08_W7.62_W10.16_W10.9_3M_220-3342-00-0602J
-3M 20-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 7.62mm 300mil Socket
-0
-20
-20
 Socket
 DIP_Socket-20_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_220-3342-00-0602J
 3M 20-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
@@ -97776,13 +97853,6 @@ THT DIP DIL ZIF 7.62mm 300mil Socket
 20
 20
 Socket
-DIP_Socket-22_W6.9_W7.62_W10.16_W12.7_W13.5_3M_222-3343-00-0602J
-3M 22-pin zero insertion force socket, through-hole, row spacing 10.16 mm (400 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 10.16mm 400mil Socket
-0
-22
-22
-Socket
 DIP_Socket-22_W6.9mm_W7.62mm_W10.16mm_W12.7mm_W13.5mm_3M_222-3343-00-0602J
 3M 22-pin zero insertion force socket, through-hole, row spacing 10.16 mm (400 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 10.16mm 400mil Socket
@@ -97790,23 +97860,9 @@ THT DIP DIL ZIF 10.16mm 400mil Socket
 22
 22
 Socket
-DIP_Socket-24_W4.3_W5.08_W7.62_W10.16_W10.9_3M_224-5248-00-0602J
-3M 24-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 7.62mm 300mil Socket
-0
-24
-24
-Socket
 DIP_Socket-24_W4.3mm_W5.08mm_W7.62mm_W10.16mm_W10.9mm_3M_224-5248-00-0602J
 3M 24-pin zero insertion force socket, through-hole, row spacing 7.62 mm (300 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 7.62mm 300mil Socket
-0
-24
-24
-Socket
-DIP_Socket-24_W11.9_W12.7_W15.24_W17.78_W18.5_3M_224-1275-00-0602J
-3M 24-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 15.24mm 600mil Socket
 0
 24
 24
@@ -97818,23 +97874,9 @@ THT DIP DIL ZIF 15.24mm 600mil Socket
 24
 24
 Socket
-DIP_Socket-28_W6.9_W7.62_W10.16_W12.7_W13.5_3M_228-4817-00-0602J
-3M 28-pin zero insertion force socket, through-hole, row spacing 10.16 mm (400 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 10.16mm 400mil Socket
-0
-28
-28
-Socket
 DIP_Socket-28_W6.9mm_W7.62mm_W10.16mm_W12.7mm_W13.5mm_3M_228-4817-00-0602J
 3M 28-pin zero insertion force socket, through-hole, row spacing 10.16 mm (400 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 10.16mm 400mil Socket
-0
-28
-28
-Socket
-DIP_Socket-28_W11.9_W12.7_W15.24_W17.78_W18.5_3M_228-1277-00-0602J
-3M 28-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 15.24mm 600mil Socket
 0
 28
 28
@@ -97846,13 +97888,6 @@ THT DIP DIL ZIF 15.24mm 600mil Socket
 28
 28
 Socket
-DIP_Socket-32_W11.9_W12.7_W15.24_W17.78_W18.5_3M_232-1285-00-0602J
-3M 32-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 15.24mm 600mil Socket
-0
-32
-32
-Socket
 DIP_Socket-32_W11.9mm_W12.7mm_W15.24mm_W17.78mm_W18.5mm_3M_232-1285-00-0602J
 3M 32-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 15.24mm 600mil Socket
@@ -97860,23 +97895,9 @@ THT DIP DIL ZIF 15.24mm 600mil Socket
 32
 32
 Socket
-DIP_Socket-40_W11.9_W12.7_W15.24_W17.78_W18.5_3M_240-1280-00-0602J
-3M 40-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 15.24mm 600mil Socket
-0
-40
-40
-Socket
 DIP_Socket-40_W11.9mm_W12.7mm_W15.24mm_W17.78mm_W18.5mm_3M_240-1280-00-0602J
 3M 40-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
 THT DIP DIL ZIF 15.24mm 600mil Socket
-0
-40
-40
-Socket
-DIP_Socket-40_W22.1_W22.86_W25.4_W27.94_W28.7_3M_240-3639-00-0602J
-3M 40-pin zero insertion force socket, through-hole, row spacing 25.4 mm (1000 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 25.4mm 1000mil Socket
 0
 40
 40
@@ -97887,13 +97908,6 @@ THT DIP DIL ZIF 25.4mm 1000mil Socket
 0
 40
 40
-Socket
-DIP_Socket-42_W11.9_W12.7_W15.24_W17.78_W18.5_3M_242-1281-00-0602J
-3M 42-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
-THT DIP DIL ZIF 15.24mm 600mil Socket
-0
-42
-42
 Socket
 DIP_Socket-42_W11.9mm_W12.7mm_W15.24mm_W17.78mm_W18.5mm_3M_242-1281-00-0602J
 3M 42-pin zero insertion force socket, through-hole, row spacing 15.24 mm (600 mils), http://multimedia.3m.com/mws/media/494546O/3mtm-dip-sockets-100-2-54-mm-ts0365.pdf
@@ -99351,34 +99365,6 @@ Logo WEEE
 0
 0
 TerminalBlock
-TerminalBlock_Altech_AK300-2_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-2
-2
-TerminalBlock
-TerminalBlock_Altech_AK300-3_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-3
-3
-TerminalBlock
-TerminalBlock_Altech_AK300-4_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-4
-4
-TerminalBlock
-TerminalBlock_Degson_DG246-3.81-03P
-DEGSON ELECTRONICS DG246 terminal block, https://www.degson.com/index.php?a=downloadFile&id=1090277
-connector terminal block
-0
-6
-3
-TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
 THT terminal block MaiXu MX126-5.0-02P pitch 5mm size 10.5x7.8mm drill 1.3mm pad 2.8mm
@@ -99540,13 +99526,6 @@ THT terminal block MaiXu MX126-5.0-24P pitch 5mm size 120x7.8mm drill 1.3mm pad 
 24
 24
 TerminalBlock
-TerminalBlock_Wuerth_691311400102_P7.62mm
-https://katalog.we-online.de/em/datasheet/6913114001xx.pdf
-Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm
-0
-2
-2
-TerminalBlock
 TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal
 Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya
 THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm
@@ -99700,48 +99679,6 @@ THT Terminal Block Xinya XY308-2.54-23P pitch 2.54mm size 58.9x6.5mm drill 1.2mm
 0
 23
 23
-TerminalBlock
-TerminalBlock_bornier-2_P5.08mm
-simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
-terminal block bornier2
-0
-2
-2
-TerminalBlock
-TerminalBlock_bornier-3_P5.08mm
-simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
-terminal block bornier3
-0
-3
-3
-TerminalBlock
-TerminalBlock_bornier-4_P5.08mm
-simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4
-terminal block bornier4
-0
-4
-4
-TerminalBlock
-TerminalBlock_bornier-5_P5.08mm
-simple 5-pin terminal block, pitch 5.08mm, revamped version of bornier5
-terminal block bornier5
-0
-5
-5
-TerminalBlock
-TerminalBlock_bornier-6_P5.08mm
-simple 6pin terminal block, pitch 5.08mm, revamped version of bornier6
-terminal block bornier6
-0
-6
-6
-TerminalBlock
-TerminalBlock_bornier-8_P5.08mm
-simple 8pin terminal block, pitch 5.08mm, revamped version of bornier8
-terminal block bornier8
-0
-8
-8
 TerminalBlock_4Ucon
 TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal
 Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon

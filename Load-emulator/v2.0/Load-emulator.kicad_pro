@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.24,
-          "height": 1.84,
-          "width": 1.84
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -68,7 +68,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -242,6 +242,10 @@
         {
           "diameter": 1.0,
           "drill": 0.5
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.75
         },
         {
           "diameter": 2.0,
@@ -743,6 +747,18 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Order Number",
+          "name": "Manufacturer Order Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PackageReference",
+          "name": "PackageReference",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -806,7 +822,7 @@
       "Filter_and_CurrentSink_1x3A_1"
     ],
     [
-      "9e0f82d8-75bf-4c42-83da-983ef25d4eec",
+      "4cf78d30-9b98-4a1a-bf7f-3221cdcc97f4",
       "Filter_and_CurrentSink_1x3A_2"
     ],
     [
@@ -822,7 +838,7 @@
       "Filter_and_CurrentSink_1x1A"
     ],
     [
-      "73794f67-ecdc-4ab1-991a-7f62161b7c6b",
+      "97c945d6-9896-4038-865e-10176a87cc56",
       "Filter_and_CurrentSink_1x1A1"
     ]
   ],
